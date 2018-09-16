@@ -1,0 +1,1187 @@
+2018-09-15 01:17:39,852 [Thread-1:5012] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 20
+2018-09-15 01:17:39,970 [Thread-3:4772] [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2018-09-15 01:17:40,101 [Thread-4:5640] [django.server:124] [basehttp:log_message] [WARNING]- "GET /static/favicon.ico HTTP/1.1" 404 1646
+2018-09-15 01:20:30,790 [Thread-1:1396] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 153
+2018-09-15 10:14:20,720 [Thread-1:7536] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 352
+2018-09-15 10:14:20,981 [Thread-3:7008] [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2018-09-15 10:14:21,049 [Thread-4:4828] [django.server:124] [basehttp:log_message] [WARNING]- "GET /static/favicon.ico HTTP/1.1" 404 1646
+2018-09-15 10:14:24,689 [Thread-5:4748] [django.server:124] [basehttp:log_message] [INFO]- "GET /?username=lixiaofeng&password=fengzi802300 HTTP/1.1" 200 352
+2018-09-15 10:16:12,056 [Thread-8:5540] [django.server:124] [basehttp:log_message] [INFO]- "GET /?username=lixiaofeng&password=fengzi802300 HTTP/1.1" 200 365
+2018-09-15 10:16:16,705 [Thread-9:7584] [django.server:124] [basehttp:log_message] [INFO]- "GET /?username=lixiaofeng&password=fengzi802300 HTTP/1.1" 200 365
+2018-09-15 10:16:17,559 [Thread-10:4844] [django.server:124] [basehttp:log_message] [INFO]- "GET /?username=lixiaofeng&password=fengzi802300 HTTP/1.1" 200 365
+2018-09-15 10:16:17,871 [Thread-11:7448] [django.server:124] [basehttp:log_message] [INFO]- "GET /?username=lixiaofeng&password=fengzi802300 HTTP/1.1" 200 365
+2018-09-15 10:16:45,290 [Thread-13:2524] [django.server:124] [basehttp:log_message] [INFO]- "GET /?username=lixiaofeng&password=fengzi802300 HTTP/1.1" 200 366
+2018-09-15 10:16:46,688 [Thread-14:4724] [django.server:124] [basehttp:log_message] [INFO]- "GET /?username=lixiaofeng&password=fengzi802300 HTTP/1.1" 200 366
+2018-09-15 10:16:48,004 [Thread-15:3536] [django.server:124] [basehttp:log_message] [INFO]- "POST /?username=lixiaofeng&password=fengzi802300 HTTP/1.1" 200 366
+2018-09-15 10:16:51,664 [Thread-16:5780] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 366
+2018-09-15 10:16:53,255 [Thread-17:1520] [django.server:124] [basehttp:log_message] [INFO]- "POST / HTTP/1.1" 200 366
+2018-09-15 10:16:54,729 [Thread-18:8172] [django.server:124] [basehttp:log_message] [INFO]- "POST / HTTP/1.1" 200 366
+2018-09-15 10:16:55,109 [Thread-19:3904] [django.server:124] [basehttp:log_message] [INFO]- "POST / HTTP/1.1" 200 366
+2018-09-15 10:16:55,654 [Thread-20:7152] [django.server:124] [basehttp:log_message] [INFO]- "POST / HTTP/1.1" 200 366
+2018-09-15 10:17:43,982 [Thread-1:4756] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 366
+2018-09-15 10:17:45,270 [Thread-3:868] [django.security.csrf:160] [csrf:_reject] [WARNING]- Forbidden (CSRF token missing or incorrect.): /
+2018-09-15 10:17:45,343 [Thread-3:868] [django.server:124] [basehttp:log_message] [WARNING]- "POST / HTTP/1.1" 403 2497
+2018-09-15 10:18:05,591 [Thread-5:7536] [django.security.csrf:160] [csrf:_reject] [WARNING]- Forbidden (CSRF token missing or incorrect.): /
+2018-09-15 10:18:05,596 [Thread-5:7536] [django.server:124] [basehttp:log_message] [WARNING]- "POST / HTTP/1.1" 403 2497
+2018-09-15 10:18:07,823 [Thread-6:6188] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 494
+2018-09-15 10:18:09,504 [Thread-7:7504] [django.server:124] [basehttp:log_message] [INFO]- "POST / HTTP/1.1" 200 494
+2018-09-15 10:18:10,655 [Thread-8:4608] [django.server:124] [basehttp:log_message] [INFO]- "POST / HTTP/1.1" 200 494
+2018-09-15 10:18:11,018 [Thread-9:6084] [django.server:124] [basehttp:log_message] [INFO]- "POST / HTTP/1.1" 200 494
+2018-09-15 10:18:11,330 [Thread-10:6300] [django.server:124] [basehttp:log_message] [INFO]- "POST / HTTP/1.1" 200 494
+2018-09-15 10:18:11,486 [Thread-11:1364] [django.server:124] [basehttp:log_message] [INFO]- "POST / HTTP/1.1" 200 494
+2018-09-15 10:18:11,784 [Thread-12:3704] [django.server:124] [basehttp:log_message] [INFO]- "POST / HTTP/1.1" 200 494
+2018-09-15 10:19:20,742 [Thread-1:7384] [django.server:124] [basehttp:log_message] [INFO]- "POST / HTTP/1.1" 200 494
+2018-09-15 10:19:26,556 [Thread-3:7228] [django.server:124] [basehttp:log_message] [INFO]- "POST / HTTP/1.1" 200 494
+2018-09-15 10:19:28,548 [Thread-4:5876] [django.server:124] [basehttp:log_message] [INFO]- "POST / HTTP/1.1" 200 494
+2018-09-15 10:19:29,365 [Thread-5:1256] [django.server:124] [basehttp:log_message] [INFO]- "POST / HTTP/1.1" 200 494
+2018-09-15 10:19:31,372 [Thread-6:6708] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 494
+2018-09-15 10:19:33,755 [Thread-7:5448] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 494
+2018-09-15 10:19:34,561 [Thread-8:968] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 494
+2018-09-15 10:19:34,862 [Thread-9:1564] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 494
+2018-09-15 10:19:35,152 [Thread-10:3920] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 494
+2018-09-15 10:20:09,980 [Thread-12:2176] [django.server:124] [basehttp:log_message] [INFO]- "POST / HTTP/1.1" 200 494
+2018-09-15 10:25:53,195 [Thread-1:8000] [django.server:124] [basehttp:log_message] [INFO]- "POST / HTTP/1.1" 200 518
+2018-09-15 10:25:59,618 [Thread-3:7080] [django.server:124] [basehttp:log_message] [INFO]- "POST /login_action/ HTTP/1.1" 200 14
+2018-09-15 10:26:02,901 [Thread-4:3612] [django.server:124] [basehttp:log_message] [INFO]- "POST /login_action/ HTTP/1.1" 200 14
+2018-09-15 10:26:04,553 [Thread-5:7680] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /login_action/
+Traceback (most recent call last):
+  File "D:\python3.6.5\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "D:\python3.6.5\lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view sign.views.login_action didn't return an HttpResponse object. It returned None instead.
+2018-09-15 10:26:04,874 [Thread-5:7680] [django.server:124] [basehttp:log_message] [ERROR]- "GET /login_action/ HTTP/1.1" 500 61105
+2018-09-15 10:26:11,279 [Thread-6:6240] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 518
+2018-09-15 10:26:14,060 [Thread-7:6604] [django.server:124] [basehttp:log_message] [INFO]- "POST /login_action/ HTTP/1.1" 200 14
+2018-09-15 10:26:16,607 [Thread-8:3808] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /login_action/
+Traceback (most recent call last):
+  File "D:\python3.6.5\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "D:\python3.6.5\lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view sign.views.login_action didn't return an HttpResponse object. It returned None instead.
+2018-09-15 10:26:16,674 [Thread-8:3808] [django.server:124] [basehttp:log_message] [ERROR]- "GET /login_action/ HTTP/1.1" 500 60890
+2018-09-15 10:26:21,034 [Thread-9:3152] [django.server:124] [basehttp:log_message] [INFO]- "POST /login_action/ HTTP/1.1" 200 518
+2018-09-15 10:26:25,834 [Thread-10:3484] [django.server:124] [basehttp:log_message] [INFO]- "POST /login_action/ HTTP/1.1" 200 518
+2018-09-15 10:26:29,546 [Thread-11:8112] [django.server:124] [basehttp:log_message] [INFO]- "POST /login_action/ HTTP/1.1" 200 518
+2018-09-15 10:27:30,968 [Thread-13:6308] [django.server:124] [basehttp:log_message] [INFO]- "POST /login_action/ HTTP/1.1" 200 554
+2018-09-15 10:30:32,021 [Thread-1:7680] [django.server:124] [basehttp:log_message] [INFO]- "POST /login_action/ HTTP/1.1" 200 162
+2018-09-15 10:34:34,702 [Thread-1:8116] [django.server:124] [basehttp:log_message] [INFO]- "POST /login_action/ HTTP/1.1" 302 0
+2018-09-15 10:34:34,738 [Thread-3:5576] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 162
+2018-09-15 10:34:37,058 [Thread-4:3956] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 162
+2018-09-15 10:34:40,332 [Thread-5:5192] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /login_action/
+Traceback (most recent call last):
+  File "D:\python3.6.5\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "D:\python3.6.5\lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view sign.views.login_action didn't return an HttpResponse object. It returned None instead.
+2018-09-15 10:34:40,581 [Thread-5:5192] [django.server:124] [basehttp:log_message] [ERROR]- "GET /login_action/ HTTP/1.1" 500 60890
+2018-09-15 10:37:51,711 [Thread-1:6420] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 527
+2018-09-15 10:37:55,776 [Thread-3:5816] [django.server:124] [basehttp:log_message] [INFO]- "POST /login_action/ HTTP/1.1" 302 0
+2018-09-15 10:37:56,083 [Thread-4:2876] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 162
+2018-09-15 10:37:58,764 [Thread-5:5132] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 527
+2018-09-15 10:39:16,633 [Thread-1:4836] [django.server:124] [basehttp:log_message] [INFO]- "POST /login_action/ HTTP/1.1" 302 0
+2018-09-15 10:39:16,649 [Thread-3:5804] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 162
+2018-09-15 10:41:14,192 [Thread-5:864] [django.server:124] [basehttp:log_message] [INFO]- "POST /login_action/ HTTP/1.1" 302 0
+2018-09-15 10:41:14,206 [Thread-6:4004] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 237
+2018-09-15 10:43:53,462 [Thread-1:7816] [django.server:124] [basehttp:log_message] [INFO]- "POST /login_action/ HTTP/1.1" 302 0
+2018-09-15 10:43:53,483 [Thread-3:3676] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 237
+2018-09-15 10:44:15,570 [Thread-4:6032] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 527
+2018-09-15 10:44:16,578 [Thread-5:2356] [django.server:124] [basehttp:log_message] [INFO]- "POST /login_action/ HTTP/1.1" 302 0
+2018-09-15 10:44:16,644 [Thread-6:3484] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 237
+2018-09-15 10:44:44,662 [Thread-7:5816] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 527
+2018-09-15 10:44:45,908 [Thread-8:2876] [django.server:124] [basehttp:log_message] [INFO]- "POST /login_action/ HTTP/1.1" 302 0
+2018-09-15 10:44:45,925 [Thread-9:6348] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 237
+2018-09-15 10:45:12,330 [Thread-10:7468] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 527
+2018-09-15 10:45:13,300 [Thread-11:5312] [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2018-09-15 10:45:13,317 [Thread-12:1432] [django.server:124] [basehttp:log_message] [WARNING]- "GET /static/favicon.ico HTTP/1.1" 404 1646
+2018-09-15 10:45:15,981 [Thread-13:5784] [django.server:124] [basehttp:log_message] [INFO]- "POST /login_action/ HTTP/1.1" 302 0
+2018-09-15 10:45:16,031 [Thread-14:7296] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 237
+2018-09-15 10:45:46,516 [Thread-1:6992] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 227
+2018-09-15 10:45:46,517 [Thread-3:4492] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 527
+2018-09-15 10:45:48,825 [Thread-4:7312] [django.server:124] [basehttp:log_message] [INFO]- "POST /login_action/ HTTP/1.1" 302 0
+2018-09-15 10:45:48,849 [Thread-5:5184] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 237
+2018-09-15 10:47:59,018 [Thread-6:5672] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 227
+2018-09-15 10:48:05,197 [Thread-7:5980] [django.server:124] [basehttp:log_message] [INFO]- "POST /login_action/ HTTP/1.1" 302 0
+2018-09-15 10:48:05,211 [Thread-8:2064] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 237
+2018-09-15 10:53:00,726 [Thread-1:3872] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 527
+2018-09-15 10:53:01,926 [Thread-3:3256] [django.server:124] [basehttp:log_message] [INFO]- "POST /login_action/ HTTP/1.1" 302 0
+2018-09-15 10:53:01,962 [Thread-4:5020] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 237
+2018-09-15 10:53:57,356 [Thread-5:3152] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 527
+2018-09-15 10:53:58,634 [Thread-6:1964] [django.server:124] [basehttp:log_message] [INFO]- "POST /login_action/ HTTP/1.1" 302 0
+2018-09-15 10:53:58,652 [Thread-7:8044] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 237
+2018-09-15 10:55:30,824 [Thread-8:5752] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 527
+2018-09-15 10:55:34,705 [Thread-9:7924] [django.request:152] [base:get_response] [WARNING]- Not Found: /admin
+2018-09-15 10:55:34,707 [Thread-9:7924] [django.server:124] [basehttp:log_message] [WARNING]- "GET /admin HTTP/1.1" 404 2463
+2018-09-15 10:55:42,995 [Thread-11:7472] [django.request:152] [base:get_response] [WARNING]- Not Found: /admin/
+2018-09-15 10:55:42,997 [Thread-11:7472] [django.server:124] [basehttp:log_message] [WARNING]- "GET /admin/ HTTP/1.1" 404 2466
+2018-09-15 10:58:00,730 [Thread-14:6580] [django.request:152] [base:get_response] [WARNING]- Not Found: /admin/
+2018-09-15 10:58:00,732 [Thread-14:6580] [django.server:124] [basehttp:log_message] [WARNING]- "GET /admin/ HTTP/1.1" 404 2466
+2018-09-15 10:58:03,419 [Thread-15:7476] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 237
+2018-09-15 10:58:06,037 [Thread-16:2408] [django.server:124] [basehttp:log_message] [INFO]- "POST /login_action/ HTTP/1.1" 302 0
+2018-09-15 10:58:06,232 [Thread-17:6592] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 237
+2018-09-15 10:58:19,069 [Thread-1:1968] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 527
+2018-09-15 11:00:23,070 [Thread-5:3964] [django.request:152] [base:get_response] [WARNING]- Not Found: /index
+2018-09-15 11:00:23,072 [Thread-5:3964] [django.server:124] [basehttp:log_message] [WARNING]- "GET /index HTTP/1.1" 404 2463
+2018-09-15 11:00:45,957 [Thread-8:5932] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 527
+2018-09-15 11:01:51,986 [Thread-11:7204] [django.request:152] [base:get_response] [WARNING]- Not Found: /admin/
+2018-09-15 11:01:51,987 [Thread-11:7204] [django.server:124] [basehttp:log_message] [WARNING]- "GET /admin/ HTTP/1.1" 404 2466
+2018-09-15 11:02:32,601 [Thread-14:5132] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 527
+2018-09-15 11:02:34,058 [Thread-15:4316] [django.server:124] [basehttp:log_message] [INFO]- "POST /login_action/ HTTP/1.1" 302 0
+2018-09-15 11:02:34,074 [Thread-16:7176] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 237
+2018-09-15 11:02:36,441 [Thread-17:328] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 237
+2018-09-15 11:03:23,628 [Thread-20:4592] [django.server:124] [basehttp:log_message] [INFO]- "POST /login_action/ HTTP/1.1" 302 0
+2018-09-15 11:03:23,644 [Thread-21:1796] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 237
+2018-09-15 11:03:48,971 [Thread-23:7020] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /login_action/
+Traceback (most recent call last):
+  File "D:\python3.6.5\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "D:\python3.6.5\lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view sign.views.login_action didn't return an HttpResponse object. It returned None instead.
+2018-09-15 11:03:49,232 [Thread-23:7020] [django.server:124] [basehttp:log_message] [ERROR]- "GET /login_action/ HTTP/1.1" 500 60807
+2018-09-15 11:08:12,800 [Thread-1:7748] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /login_action/
+Traceback (most recent call last):
+  File "D:\python3.6.5\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "D:\python3.6.5\lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view sign.views.login_action didn't return an HttpResponse object. It returned None instead.
+2018-09-15 11:08:13,031 [Thread-1:7748] [django.server:124] [basehttp:log_message] [ERROR]- "GET /login_action/ HTTP/1.1" 500 61406
+2018-09-15 11:08:13,913 [Thread-3:4080] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 237
+2018-09-15 11:08:15,449 [Thread-4:7488] [django.request:152] [base:get_response] [WARNING]- Not Found: /
+2018-09-15 11:08:15,451 [Thread-4:7488] [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2436
+2018-09-15 11:08:17,001 [Thread-5:5980] [django.request:152] [base:get_response] [WARNING]- Not Found: /
+2018-09-15 11:08:17,004 [Thread-5:5980] [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2436
+2018-09-15 11:08:21,161 [Thread-6:4784] [django.server:124] [basehttp:log_message] [INFO]- "GET /index HTTP/1.1" 301 0
+2018-09-15 11:08:21,451 [Thread-7:7112] [django.server:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 527
+2018-09-15 11:08:23,230 [Thread-8:5556] [django.server:124] [basehttp:log_message] [INFO]- "POST /login_action/ HTTP/1.1" 302 0
+2018-09-15 11:08:23,260 [Thread-9:4952] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 237
+2018-09-15 11:08:25,345 [Thread-10:5984] [django.request:152] [base:get_response] [WARNING]- Not Found: /admin/
+2018-09-15 11:08:25,346 [Thread-10:5984] [django.server:124] [basehttp:log_message] [WARNING]- "GET /admin/ HTTP/1.1" 404 2472
+2018-09-15 11:08:29,556 [Thread-11:228] [django.request:152] [base:get_response] [WARNING]- Not Found: /admin/
+2018-09-15 11:08:29,557 [Thread-11:228] [django.server:124] [basehttp:log_message] [WARNING]- "GET /admin/ HTTP/1.1" 404 2472
+2018-09-15 11:10:21,397 [Thread-13:4688] [django.server:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 527
+2018-09-15 11:13:46,272 [Thread-1:7776] [django.request:152] [base:get_response] [WARNING]- Not Found: /admin/
+2018-09-15 11:13:46,274 [Thread-1:7776] [django.server:124] [basehttp:log_message] [WARNING]- "GET /admin/ HTTP/1.1" 404 2472
+2018-09-15 11:13:47,339 [Thread-3:5116] [django.request:152] [base:get_response] [WARNING]- Not Found: /admin/
+2018-09-15 11:13:47,344 [Thread-3:5116] [django.server:124] [basehttp:log_message] [WARNING]- "GET /admin/ HTTP/1.1" 404 2472
+2018-09-15 11:13:48,390 [Thread-4:6308] [django.request:152] [base:get_response] [WARNING]- Not Found: /admin/
+2018-09-15 11:13:48,391 [Thread-4:6308] [django.server:124] [basehttp:log_message] [WARNING]- "GET /admin/ HTTP/1.1" 404 2472
+2018-09-15 11:13:48,805 [Thread-5:5672] [django.request:152] [base:get_response] [WARNING]- Not Found: /admin/
+2018-09-15 11:13:48,806 [Thread-5:5672] [django.server:124] [basehttp:log_message] [WARNING]- "GET /admin/ HTTP/1.1" 404 2472
+2018-09-15 11:13:49,193 [Thread-6:5796] [django.request:152] [base:get_response] [WARNING]- Not Found: /admin/
+2018-09-15 11:13:49,194 [Thread-6:5796] [django.server:124] [basehttp:log_message] [WARNING]- "GET /admin/ HTTP/1.1" 404 2472
+2018-09-15 11:13:49,635 [Thread-7:2480] [django.request:152] [base:get_response] [WARNING]- Not Found: /admin/
+2018-09-15 11:13:49,642 [Thread-7:2480] [django.server:124] [basehttp:log_message] [WARNING]- "GET /admin/ HTTP/1.1" 404 2472
+2018-09-15 11:16:21,465 [Thread-1:2468] [django.server:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 527
+2018-09-15 11:16:23,531 [Thread-3:1344] [django.server:124] [basehttp:log_message] [INFO]- "POST /login_action/ HTTP/1.1" 302 0
+2018-09-15 11:16:23,586 [Thread-4:4236] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 237
+2018-09-15 11:16:27,149 [Thread-5:1124] [django.request:152] [base:get_response] [WARNING]- Not Found: /admin/
+2018-09-15 11:16:27,151 [Thread-5:1124] [django.server:124] [basehttp:log_message] [WARNING]- "GET /admin/ HTTP/1.1" 404 2472
+2018-09-15 11:21:58,562 [Thread-1:3956] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /login_action/
+Traceback (most recent call last):
+  File "D:\python3.6.5\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "D:\python3.6.5\lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view sign.views.login_action didn't return an HttpResponse object. It returned None instead.
+2018-09-15 11:21:58,827 [Thread-1:3956] [django.server:124] [basehttp:log_message] [ERROR]- "GET /login_action/ HTTP/1.1" 500 61406
+2018-09-15 11:22:01,002 [Thread-3:8056] [django.server:124] [basehttp:log_message] [INFO]- "POST /login_action/ HTTP/1.1" 302 0
+2018-09-15 11:22:01,027 [Thread-4:3152] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 237
+2018-09-15 11:22:03,562 [Thread-5:7592] [django.request:152] [base:get_response] [WARNING]- Not Found: /admin/
+2018-09-15 11:22:03,564 [Thread-5:7592] [django.server:124] [basehttp:log_message] [WARNING]- "GET /admin/ HTTP/1.1" 404 2472
+2018-09-15 11:25:50,365 [Thread-1:6096] [django.request:152] [base:get_response] [WARNING]- Not Found: /admin/
+2018-09-15 11:25:50,367 [Thread-1:6096] [django.server:124] [basehttp:log_message] [WARNING]- "GET /admin/ HTTP/1.1" 404 2472
+2018-09-15 11:25:51,763 [Thread-3:2468] [django.request:152] [base:get_response] [WARNING]- Not Found: /admin/
+2018-09-15 11:25:51,766 [Thread-3:2468] [django.server:124] [basehttp:log_message] [WARNING]- "GET /admin/ HTTP/1.1" 404 2472
+2018-09-15 11:25:53,071 [Thread-4:5484] [django.request:152] [base:get_response] [WARNING]- Not Found: /admin/
+2018-09-15 11:25:53,074 [Thread-4:5484] [django.server:124] [basehttp:log_message] [WARNING]- "GET /admin/ HTTP/1.1" 404 2472
+2018-09-15 11:26:12,938 [Thread-6:508] [django.request:152] [base:get_response] [WARNING]- Not Found: /
+2018-09-15 11:26:12,939 [Thread-6:508] [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2436
+2018-09-15 11:26:13,148 [Thread-7:2992] [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2018-09-15 11:26:13,209 [Thread-8:1304] [django.server:124] [basehttp:log_message] [WARNING]- "GET /static/favicon.ico HTTP/1.1" 404 1646
+2018-09-15 11:26:22,168 [Thread-9:5892] [django.server:124] [basehttp:log_message] [INFO]- "GET /index HTTP/1.1" 301 0
+2018-09-15 11:26:22,193 [Thread-10:7724] [django.server:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 527
+2018-09-15 11:26:29,944 [Thread-11:7092] [django.request:152] [base:get_response] [WARNING]- Not Found: /admin
+2018-09-15 11:26:29,949 [Thread-11:7092] [django.server:124] [basehttp:log_message] [WARNING]- "GET /admin HTTP/1.1" 404 2469
+2018-09-15 11:27:52,902 [Thread-1:5384] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 527
+2018-09-15 11:27:54,858 [Thread-3:7540] [django.server:124] [basehttp:log_message] [INFO]- "POST /login_action/ HTTP/1.1" 302 0
+2018-09-15 11:27:54,883 [Thread-4:6108] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 237
+2018-09-15 11:27:59,617 [Thread-5:7988] [django.request:152] [base:get_response] [WARNING]- Not Found: /admin
+2018-09-15 11:27:59,618 [Thread-5:7988] [django.server:124] [basehttp:log_message] [WARNING]- "GET /admin HTTP/1.1" 404 2463
+2018-09-15 11:28:13,170 [Thread-8:7748] [django.request:152] [base:get_response] [WARNING]- Not Found: /admin 4040
+2018-09-15 11:28:13,175 [Thread-8:7748] [django.server:124] [basehttp:log_message] [WARNING]- "GET /admin%204040 HTTP/1.1" 404 2480
+2018-09-15 11:32:02,932 [Thread-1:2860] [django.request:152] [base:get_response] [WARNING]- Not Found: /admin
+2018-09-15 11:32:02,936 [Thread-1:2860] [django.server:124] [basehttp:log_message] [WARNING]- "GET /admin HTTP/1.1" 404 2463
+2018-09-15 11:32:03,163 [Thread-3:508] [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2018-09-15 11:32:03,180 [Thread-4:5788] [django.server:124] [basehttp:log_message] [WARNING]- "GET /static/favicon.ico HTTP/1.1" 404 1646
+2018-09-15 11:32:19,076 [Thread-5:6776] [django.request:152] [base:get_response] [WARNING]- Not Found: /admin/
+2018-09-15 11:32:19,080 [Thread-5:6776] [django.server:124] [basehttp:log_message] [WARNING]- "GET /admin/ HTTP/1.1" 404 2466
+2018-09-15 11:32:29,099 [Thread-7:1196] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 527
+2018-09-15 11:32:31,726 [Thread-8:5064] [django.server:124] [basehttp:log_message] [INFO]- "POST /login_action/ HTTP/1.1" 302 0
+2018-09-15 11:32:31,814 [Thread-9:2356] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 237
+2018-09-15 11:32:35,120 [Thread-10:7468] [django.server:124] [basehttp:log_message] [INFO]- "POST /login_action/ HTTP/1.1" 302 0
+2018-09-15 11:32:35,153 [Thread-11:7324] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 237
+2018-09-15 11:35:44,247 [Thread-1:3964] [django.server:124] [basehttp:log_message] [ERROR]- "GET / HTTP/1.1" 500 59
+2018-09-15 11:35:53,011 [Thread-4:3716] [django.server:124] [basehttp:log_message] [ERROR]- "GET /admin/ HTTP/1.1" 500 59
+2018-09-15 11:36:14,271 [Thread-1:7624] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 302 0
+2018-09-15 11:36:14,642 [Thread-3:3984] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1652
+2018-09-15 11:36:14,680 [Thread-5:5380] [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/login.css HTTP/1.1" 200 1203
+2018-09-15 11:36:14,681 [Thread-4:5500] [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/base.css HTTP/1.1" 200 16066
+2018-09-15 11:36:14,698 [Thread-6:2588] [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+2018-09-15 11:36:14,728 [Thread-7:4608] [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+2018-09-15 11:36:14,734 [Thread-8:7756] [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+2018-09-15 11:36:18,548 [Thread-9:6544] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 527
+2018-09-15 11:36:53,158 [Thread-1:1128] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 527
+2018-09-15 11:36:54,845 [Thread-3:6600] [django.server:124] [basehttp:log_message] [INFO]- "POST /login_action/ HTTP/1.1" 302 0
+2018-09-15 11:36:54,868 [Thread-4:6508] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 237
+2018-09-15 11:38:57,652 [Thread-1:7756] [django.server:124] [basehttp:log_message] [INFO]- "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+2018-09-15 11:38:57,941 [Thread-3:7436] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 2744
+2018-09-15 11:38:57,969 [Thread-4:6544] [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/dashboard.css HTTP/1.1" 200 412
+2018-09-15 11:38:58,007 [Thread-6:4780] [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+2018-09-15 11:38:58,010 [Thread-7:5176] [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+2018-09-15 11:38:58,023 [Thread-5:7564] [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 82564
+2018-09-15 11:45:50,426 [Thread-1:7684] [django.server:124] [basehttp:log_message] [INFO]- "POST /login_action/ HTTP/1.1" 302 0
+2018-09-15 11:45:50,467 [Thread-3:4080] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 237
+2018-09-15 11:45:54,609 [Thread-4:7092] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 527
+2018-09-15 11:45:59,448 [Thread-5:6532] [django.server:124] [basehttp:log_message] [INFO]- "POST /login_action/ HTTP/1.1" 200 554
+2018-09-15 11:46:02,124 [Thread-6:1472] [django.server:124] [basehttp:log_message] [INFO]- "POST /login_action/ HTTP/1.1" 302 0
+2018-09-15 11:46:02,238 [Thread-7:4700] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 237
+2018-09-15 11:46:16,551 [Thread-8:2504] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/auth/user/add/ HTTP/1.1" 200 5493
+2018-09-15 11:46:16,596 [Thread-9:7696] [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/forms.css HTTP/1.1" 200 8173
+2018-09-15 11:46:16,598 [Thread-11:6268] [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/core.js HTTP/1.1" 200 7976
+2018-09-15 11:46:16,601 [Thread-13:7592] [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 363
+2018-09-15 11:46:16,610 [Thread-15:3228] [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/actions.js HTTP/1.1" 200 6501
+2018-09-15 11:46:16,611 [Thread-14:7340] [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 6591
+2018-09-15 11:46:16,632 [Thread-10:4420] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+2018-09-15 11:46:16,643 [Thread-18:3920] [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1538
+2018-09-15 11:46:16,646 [Thread-17:5484] [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/urlify.js HTTP/1.1" 200 8186
+2018-09-15 11:46:16,649 [Thread-16:5228] [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/widgets.css HTTP/1.1" 200 10340
+2018-09-15 11:46:16,650 [Thread-20:3012] [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/change_form.js HTTP/1.1" 200 712
+2018-09-15 11:46:16,653 [Thread-21:4844] [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 495
+2018-09-15 11:46:16,654 [Thread-19:7708] [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820
+2018-09-15 11:46:16,662 [Thread-12:7112] [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 258648
+2018-09-15 11:46:19,638 [Thread-22:916] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 2744
+2018-09-15 11:46:20,680 [Thread-23:4748] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/auth/group/add/ HTTP/1.1" 200 5962
+2018-09-15 11:46:20,726 [Thread-25:6572] [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 5755
+2018-09-15 11:46:20,729 [Thread-26:8000] [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 12389
+2018-09-15 11:46:20,747 [Thread-24:1872] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+2018-09-15 11:46:20,874 [Thread-29:6968] [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+2018-09-15 11:46:20,889 [Thread-27:7100] [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+2018-09-15 11:46:20,890 [Thread-30:4576] [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+2018-09-15 11:46:20,891 [Thread-28:6868] [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 200 655
+2018-09-15 11:46:24,121 [Thread-31:6308] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 2744
+2018-09-15 11:48:21,052 [Thread-1:7040] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 237
+2018-09-15 11:48:26,413 [Thread-3:7948] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 527
+2018-09-15 11:48:28,012 [Thread-4:476] [django.server:124] [basehttp:log_message] [INFO]- "POST /login_action/ HTTP/1.1" 302 0
+2018-09-15 11:48:28,137 [Thread-5:1932] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 237
+2018-09-15 11:48:33,848 [Thread-6:6324] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 237
+2018-09-15 11:48:35,795 [Thread-7:7488] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 237
+2018-09-15 11:48:56,021 [Thread-9:5020] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 302 0
+2018-09-15 11:48:56,068 [Thread-10:5968] [django.request:152] [base:get_response] [WARNING]- Not Found: /accounts/login/
+2018-09-15 11:48:56,073 [Thread-10:5968] [django.server:124] [basehttp:log_message] [WARNING]- "GET /accounts/login/?next=/event_manage/ HTTP/1.1" 404 2861
+2018-09-15 11:48:56,295 [Thread-11:7256] [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2018-09-15 11:48:56,303 [Thread-12:3032] [django.server:124] [basehttp:log_message] [WARNING]- "GET /static/favicon.ico HTTP/1.1" 404 1646
+2018-09-15 11:48:56,514 [Thread-13:1116] [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2018-09-15 11:48:56,523 [Thread-14:7128] [django.server:124] [basehttp:log_message] [WARNING]- "GET /static/favicon.ico HTTP/1.1" 404 1646
+2018-09-15 11:50:25,660 [Thread-1:2064] [django.server:124] [basehttp:log_message] [INFO]- "GET /accounts/login/?next=/event_manage/ HTTP/1.1" 200 527
+2018-09-15 11:50:34,761 [Thread-3:2408] [django.server:124] [basehttp:log_message] [INFO]- "POST /login_action/ HTTP/1.1" 200 554
+2018-09-15 11:50:44,190 [Thread-4:1300] [django.server:124] [basehttp:log_message] [INFO]- "POST /login_action/ HTTP/1.1" 302 0
+2018-09-15 11:50:44,221 [Thread-5:6180] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 237
+2018-09-15 11:50:47,728 [Thread-6:3152] [django.security.csrf:160] [csrf:_reject] [WARNING]- Forbidden (CSRF token missing or incorrect.): /login_action/
+2018-09-15 11:50:47,733 [Thread-6:3152] [django.server:124] [basehttp:log_message] [WARNING]- "POST /login_action/ HTTP/1.1" 403 2497
+2018-09-15 11:50:58,101 [Thread-7:5268] [django.security.csrf:160] [csrf:_reject] [WARNING]- Forbidden (CSRF token missing or incorrect.): /login_action/
+2018-09-15 11:50:58,105 [Thread-7:5268] [django.server:124] [basehttp:log_message] [WARNING]- "POST /login_action/ HTTP/1.1" 403 2497
+2018-09-15 11:51:22,480 [Thread-8:1696] [django.request:152] [base:get_response] [WARNING]- Not Found: /a/
+2018-09-15 11:51:22,485 [Thread-8:1696] [django.server:124] [basehttp:log_message] [WARNING]- "GET /a/ HTTP/1.1" 404 2967
+2018-09-15 11:51:29,836 [Thread-9:4740] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 527
+2018-09-15 11:51:34,459 [Thread-10:7392] [django.request:152] [base:get_response] [WARNING]- Not Found: /index
+2018-09-15 11:51:34,460 [Thread-10:7392] [django.server:124] [basehttp:log_message] [WARNING]- "GET /index HTTP/1.1" 404 2976
+2018-09-15 11:51:49,786 [Thread-11:4340] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 237
+2018-09-15 11:52:03,981 [Thread-12:6180] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 302 0
+2018-09-15 11:52:03,998 [Thread-13:7688] [django.server:124] [basehttp:log_message] [INFO]- "GET /accounts/login/?next=/event_manage/ HTTP/1.1" 200 527
+2018-09-15 11:52:23,992 [Thread-14:5804] [django.server:124] [basehttp:log_message] [INFO]- "GET /accounts/login HTTP/1.1" 301 0
+2018-09-15 11:52:24,003 [Thread-15:6016] [django.server:124] [basehttp:log_message] [INFO]- "GET /accounts/login/ HTTP/1.1" 200 527
+2018-09-15 11:52:27,539 [Thread-16:5392] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 527
+2018-09-15 14:54:54,702 [Thread-1:1876] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 3763
+2018-09-15 14:55:10,242 [Thread-4:7964] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/sign/event/add/ HTTP/1.1" 200 5979
+2018-09-15 14:55:10,294 [Thread-5:4780] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+2018-09-15 14:55:10,297 [Thread-6:5916] [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/calendar.js HTTP/1.1" 200 7790
+2018-09-15 14:55:10,322 [Thread-7:2432] [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 20529
+2018-09-15 14:55:10,426 [Thread-8:5384] [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+2018-09-15 14:55:10,428 [Thread-9:4912] [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+2018-09-15 14:56:34,703 [Thread-1:2404] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/sign/event/add/ HTTP/1.1" 200 6003
+2018-09-15 14:56:34,745 [Thread-3:864] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+2018-09-15 14:57:20,792 [Thread-4:6696] [django.server:124] [basehttp:log_message] [INFO]- "POST /admin/sign/event/add/ HTTP/1.1" 302 0
+2018-09-15 14:57:20,893 [Thread-5:5896] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/sign/event/ HTTP/1.1" 200 4356
+2018-09-15 14:57:20,932 [Thread-7:3228] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+2018-09-15 14:57:20,934 [Thread-6:3024] [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/changelists.css HTTP/1.1" 200 6170
+2018-09-15 14:57:20,972 [Thread-8:5228] [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+2018-09-15 14:57:20,977 [Thread-9:6672] [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+2018-09-15 15:03:51,429 [Thread-1:3408] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/sign/event/ HTTP/1.1" 200 5250
+2018-09-15 15:03:51,474 [Thread-3:7340] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+2018-09-15 15:04:04,162 [Thread-5:4400] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/sign/event/add/ HTTP/1.1" 200 6003
+2018-09-15 15:04:05,654 [Thread-6:5484] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 4091
+2018-09-15 15:04:07,319 [Thread-7:4780] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/sign/guest/add/ HTTP/1.1" 200 6304
+2018-09-15 15:04:07,364 [Thread-8:5456] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+2018-09-15 15:04:25,200 [Thread-9:6164] [django.server:124] [basehttp:log_message] [INFO]- "POST /admin/sign/guest/add/ HTTP/1.1" 200 6485
+2018-09-15 15:04:25,238 [Thread-10:2504] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+2018-09-15 15:04:38,242 [Thread-12:6640] [django.server:124] [basehttp:log_message] [INFO]- "POST /admin/sign/guest/add/ HTTP/1.1" 302 0
+2018-09-15 15:04:38,353 [Thread-11:1128] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/sign/guest/ HTTP/1.1" 200 5412
+2018-09-15 15:04:38,389 [Thread-13:740] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+2018-09-15 15:06:22,369 [Thread-1:6908] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/sign/guest/ HTTP/1.1" 200 5925
+2018-09-15 15:06:22,420 [Thread-3:1876] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+2018-09-15 15:06:24,847 [Thread-4:7924] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/sign/guest/add/ HTTP/1.1" 200 6304
+2018-09-15 15:06:25,759 [Thread-5:8056] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 4375
+2018-09-15 15:06:27,747 [Thread-6:7640] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/sign/event/ HTTP/1.1" 200 5934
+2018-09-15 15:06:27,787 [Thread-7:7552] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+2018-09-15 15:06:33,900 [Thread-8:1204] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/sign/event/?q=10 HTTP/1.1" 200 6072
+2018-09-15 15:06:33,940 [Thread-9:6068] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+2018-09-15 15:06:39,656 [Thread-10:7140] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/sign/event/?q=%E5%8C%97%E4%BA%AC HTTP/1.1" 200 6276
+2018-09-15 15:06:39,702 [Thread-11:2180] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+2018-09-15 15:06:41,483 [Thread-12:7788] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/sign/event/?q=10 HTTP/1.1" 200 6072
+2018-09-15 15:06:43,265 [Thread-13:6556] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/sign/event/ HTTP/1.1" 200 5934
+2018-09-15 15:06:44,260 [Thread-14:7756] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 4375
+2018-09-15 15:06:45,506 [Thread-15:1124] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/sign/guest/ HTTP/1.1" 200 5925
+2018-09-15 15:06:45,543 [Thread-16:7732] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+2018-09-15 15:06:52,463 [Thread-17:6624] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/sign/guest/?q=18701137212 HTTP/1.1" 200 4403
+2018-09-15 15:06:52,501 [Thread-18:7612] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+2018-09-15 15:06:55,841 [Thread-19:7064] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/sign/guest/?q=%E5%B0%8F HTTP/1.1" 200 6153
+2018-09-15 15:06:55,869 [Thread-20:4912] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+2018-09-15 15:07:07,706 [Thread-21:3768] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/sign/guest/?q=%E5%B0%8F&sign__exact=1 HTTP/1.1" 200 6354
+2018-09-15 15:07:07,741 [Thread-22:8040] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+2018-09-15 15:07:09,190 [Thread-23:7780] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/sign/guest/?q=%E5%B0%8F&sign__exact=0 HTTP/1.1" 200 4468
+2018-09-15 15:07:09,235 [Thread-24:8164] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+2018-09-15 15:07:11,258 [Thread-25:5556] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/sign/guest/?q=%E5%B0%8F&sign__exact=1 HTTP/1.1" 200 6354
+2018-09-15 15:07:12,930 [Thread-26:4080] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/sign/guest/?q=%E5%B0%8F HTTP/1.1" 200 6153
+2018-09-15 15:07:13,838 [Thread-27:4772] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/sign/guest/?q=18701137212 HTTP/1.1" 200 4403
+2018-09-15 15:07:14,495 [Thread-28:6296] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/sign/guest/ HTTP/1.1" 200 5925
+2018-09-15 15:07:16,465 [Thread-29:7696] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 4375
+2018-09-15 15:07:18,773 [Thread-30:8088] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/sign/event/ HTTP/1.1" 200 5934
+2018-09-15 15:07:18,810 [Thread-31:2860] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+2018-09-15 15:07:20,519 [Thread-32:3952] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/sign/event/?status__exact=0 HTTP/1.1" 200 4404
+2018-09-15 15:07:20,559 [Thread-33:6512] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+2018-09-15 15:07:22,178 [Thread-34:4044] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/sign/event/?status__exact=1 HTTP/1.1" 200 6189
+2018-09-15 15:07:22,210 [Thread-35:8068] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+2018-09-15 15:11:31,890 [Thread-1:5648] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/sign/event/?status__exact=0 HTTP/1.1" 200 4404
+2018-09-15 15:11:33,117 [Thread-3:3024] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/sign/event/ HTTP/1.1" 200 5934
+2018-09-15 15:11:35,867 [Thread-4:6640] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin HTTP/1.1" 301 0
+2018-09-15 15:11:35,933 [Thread-5:4748] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 4375
+2018-09-15 15:11:37,461 [Thread-6:5532] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/sign/event/ HTTP/1.1" 200 5934
+2018-09-15 15:11:37,539 [Thread-7:5796] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+2018-09-15 15:11:41,199 [Thread-8:2976] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 4375
+2018-09-15 15:11:42,414 [Thread-9:968] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/sign/event/add/ HTTP/1.1" 200 6003
+2018-09-15 15:11:42,470 [Thread-10:6128] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+2018-09-15 15:12:07,291 [Thread-11:2484] [django.server:124] [basehttp:log_message] [INFO]- "POST /admin/sign/event/add/ HTTP/1.1" 302 0
+2018-09-15 15:12:07,361 [Thread-12:5228] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/sign/event/ HTTP/1.1" 200 6618
+2018-09-15 15:12:07,400 [Thread-13:4772] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+2018-09-15 15:12:17,371 [Thread-14:3452] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/sign/event/add/ HTTP/1.1" 200 6003
+2018-09-15 15:12:19,603 [Thread-15:7756] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 4668
+2018-09-15 15:12:20,978 [Thread-16:7772] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/sign/guest/ HTTP/1.1" 200 5925
+2018-09-15 15:12:21,025 [Thread-17:7924] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+2018-09-15 15:12:22,092 [Thread-18:5364] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 4668
+2018-09-15 15:12:23,372 [Thread-19:7392] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/sign/guest/add/ HTTP/1.1" 200 6353
+2018-09-15 15:12:23,400 [Thread-20:8164] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+2018-09-15 15:12:52,270 [Thread-21:6468] [django.server:124] [basehttp:log_message] [INFO]- "POST /admin/sign/guest/add/ HTTP/1.1" 302 0
+2018-09-15 15:12:52,360 [Thread-22:5648] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/sign/guest/ HTTP/1.1" 200 6602
+2018-09-15 15:12:52,406 [Thread-23:3024] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+2018-09-15 15:12:59,885 [Thread-24:1132] [django.server:124] [basehttp:log_message] [INFO]- "POST /admin/sign/guest/ HTTP/1.1" 302 0
+2018-09-15 15:12:59,952 [Thread-25:6280] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/sign/guest/ HTTP/1.1" 200 6601
+2018-09-15 15:12:59,987 [Thread-26:4740] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+2018-09-15 15:13:00,048 [Thread-27:6640] [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/img/icon-alert.svg HTTP/1.1" 200 504
+2018-09-15 15:13:03,863 [Thread-28:5796] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/sign/guest/?q=0x80070424 HTTP/1.1" 200 4398
+2018-09-15 15:13:03,903 [Thread-29:8116] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+2018-09-15 15:13:07,713 [Thread-31:6128] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/sign/guest/?q= HTTP/1.1" 200 6576
+2018-09-15 15:13:07,743 [Thread-30:968] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+2018-09-15 15:43:37,785 [Thread-1:5484] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 2349
+2018-09-15 15:43:47,450 [Thread-3:5560] [django.request:152] [base:get_response] [WARNING]- Not Found: /guest_manage
+2018-09-15 15:43:47,452 [Thread-3:5560] [django.server:124] [basehttp:log_message] [WARNING]- "GET /guest_manage HTTP/1.1" 404 2997
+2018-09-15 15:43:49,047 [Thread-5:8100] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 2349
+2018-09-15 15:53:00,489 [Thread-1:6696] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 2738
+2018-09-15 15:53:51,900 [Thread-5:2356] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 2738
+2018-09-15 15:53:55,697 [Thread-6:9132] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 2738
+2018-09-15 15:53:59,316 [Thread-7:8652] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 2738
+2018-09-15 15:54:04,849 [Thread-8:6328] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_name/?name=i HTTP/1.1" 200 2475
+2018-09-15 15:54:59,114 [Thread-10:6360] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_name/?name=i HTTP/1.1" 200 2549
+2018-09-15 15:55:00,162 [Thread-11:6536] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_name/?name= HTTP/1.1" 200 2812
+2018-09-15 15:55:03,165 [Thread-12:9200] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_name/?name=%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 2286
+2018-09-15 15:55:07,442 [Thread-13:8356] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_name/?name=o HTTP/1.1" 200 2549
+2018-09-15 15:56:34,084 [Thread-15:7252] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_name/?name=o HTTP/1.1" 200 2552
+2018-09-15 15:57:05,062 [Thread-18:1744] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage HTTP/1.1" 301 0
+2018-09-15 15:57:05,094 [Thread-19:6472] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 2815
+2018-09-15 15:57:05,390 [Thread-20:524] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 2815
+2018-09-15 15:57:06,791 [Thread-21:3536] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 2815
+2018-09-15 16:04:00,695 [Thread-1:6488] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage HTTP/1.1" 301 0
+2018-09-15 16:04:00,743 [Thread-3:7444] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/ HTTP/1.1" 200 2946
+2018-09-15 16:04:15,289 [Thread-5:4784] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_name/?name=%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 2290
+2018-09-15 16:04:17,576 [Thread-6:8024] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/ HTTP/1.1" 200 2946
+2018-09-15 16:14:21,994 [Thread-1:4912] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/ HTTP/1.1" 200 2959
+2018-09-15 16:14:24,035 [Thread-3:6116] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/ HTTP/1.1" 200 2959
+2018-09-15 16:14:24,935 [Thread-4:8576] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/ HTTP/1.1" 200 2959
+2018-09-15 16:14:25,977 [Thread-5:6644] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/ HTTP/1.1" 200 2959
+2018-09-15 16:14:26,691 [Thread-6:2432] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/ HTTP/1.1" 200 2959
+2018-09-15 16:14:27,372 [Thread-7:1364] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/ HTTP/1.1" 200 2959
+2018-09-15 16:14:28,023 [Thread-8:8872] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/ HTTP/1.1" 200 2959
+2018-09-15 16:14:28,783 [Thread-9:7084] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/ HTTP/1.1" 200 2959
+2018-09-15 16:14:29,482 [Thread-10:6080] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/ HTTP/1.1" 200 2959
+2018-09-15 16:14:45,430 [Thread-12:7748] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/ HTTP/1.1" 200 2959
+2018-09-15 16:14:47,949 [Thread-13:476] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 2816
+2018-09-15 16:14:49,875 [Thread-14:6424] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/ HTTP/1.1" 200 2959
+2018-09-15 16:14:51,051 [Thread-15:6300] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 2816
+2018-09-15 16:14:52,803 [Thread-16:7016] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/ HTTP/1.1" 200 2959
+2018-09-15 16:14:53,771 [Thread-17:3932] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 2816
+2018-09-15 16:14:54,773 [Thread-18:5972] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/ HTTP/1.1" 200 2959
+2018-09-15 16:14:56,240 [Thread-19:4492] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 2816
+2018-09-15 16:14:57,478 [Thread-20:6776] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/ HTTP/1.1" 200 2959
+2018-09-15 16:15:02,241 [Thread-21:4420] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_guest/?name=187 HTTP/1.1" 200 2363
+2018-09-15 16:15:06,856 [Thread-22:4036] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_guest/?name= HTTP/1.1" 200 2959
+2018-09-15 16:15:15,946 [Thread-23:8876] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_guest/?name=%E5%B0%8F HTTP/1.1" 200 2363
+2018-09-15 16:16:09,283 [Thread-1:496] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/ HTTP/1.1" 200 2959
+2018-09-15 16:16:10,491 [Thread-3:3764] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/ HTTP/1.1" 200 2959
+2018-09-15 16:16:11,337 [Thread-4:5192] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/ HTTP/1.1" 200 2959
+2018-09-15 16:16:12,017 [Thread-5:2880] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/ HTTP/1.1" 200 2959
+2018-09-15 16:16:12,568 [Thread-6:4416] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/ HTTP/1.1" 200 2959
+2018-09-15 16:16:13,138 [Thread-7:7092] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/ HTTP/1.1" 200 2959
+2018-09-15 16:16:13,617 [Thread-8:7984] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/ HTTP/1.1" 200 2959
+2018-09-15 16:16:14,090 [Thread-9:2588] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/ HTTP/1.1" 200 2959
+2018-09-15 16:16:14,540 [Thread-10:8456] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/ HTTP/1.1" 200 2959
+2018-09-15 16:16:15,468 [Thread-11:8964] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 2816
+2018-09-15 16:16:16,546 [Thread-12:6236] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 2816
+2018-09-15 16:16:16,994 [Thread-13:4508] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 2816
+2018-09-15 16:16:19,662 [Thread-14:1116] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/ HTTP/1.1" 200 2959
+2018-09-15 16:16:25,356 [Thread-15:6388] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_guest/?name=%E5%B0%8F HTTP/1.1" 200 2363
+2018-09-15 16:21:20,885 [Thread-1:6120] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 2816
+2018-09-15 16:21:23,869 [Thread-3:8708] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_name/?name=i HTTP/1.1" 200 2553
+2018-09-15 16:21:26,095 [Thread-4:6700] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/ HTTP/1.1" 200 2959
+2018-09-15 16:21:33,680 [Thread-5:5380] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_guest/?name=%E5%B0%8F HTTP/1.1" 200 2959
+2018-09-15 16:21:38,141 [Thread-6:4780] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_guest/?name=187 HTTP/1.1" 200 2661
+2018-09-15 16:26:18,791 [Thread-1:5980] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/sign/guest/?q=0x80070424 HTTP/1.1" 200 4398
+2018-09-15 16:26:20,662 [Thread-3:7580] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/sign/guest/ HTTP/1.1" 200 6437
+2018-09-15 16:26:25,153 [Thread-4:9192] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 527
+2018-09-15 16:26:32,235 [Thread-5:6992] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 4952
+2018-09-15 16:26:33,913 [Thread-6:8812] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/sign/guest/add/ HTTP/1.1" 200 6353
+2018-09-15 16:26:33,960 [Thread-7:8396] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+2018-09-15 16:27:07,001 [Thread-8:4472] [django.server:124] [basehttp:log_message] [INFO]- "POST /admin/sign/guest/add/ HTTP/1.1" 302 0
+2018-09-15 16:27:07,107 [Thread-9:8464] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/sign/guest/ HTTP/1.1" 200 7109
+2018-09-15 16:27:07,156 [Thread-10:4236] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+2018-09-15 16:27:11,818 [Thread-11:6332] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/sign/guest/add/ HTTP/1.1" 200 6353
+2018-09-15 16:27:48,311 [Thread-13:476] [django.server:124] [basehttp:log_message] [INFO]- "POST /admin/sign/guest/add/ HTTP/1.1" 302 0
+2018-09-15 16:27:48,396 [Thread-14:5972] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/sign/guest/ HTTP/1.1" 200 7617
+2018-09-15 16:27:48,462 [Thread-15:8332] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+2018-09-15 16:27:53,177 [Thread-16:4364] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/sign/guest/add/ HTTP/1.1" 200 6353
+2018-09-15 16:28:33,510 [Thread-18:7948] [django.server:124] [basehttp:log_message] [INFO]- "POST /admin/sign/guest/add/ HTTP/1.1" 302 0
+2018-09-15 16:28:33,601 [Thread-19:7252] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/sign/guest/ HTTP/1.1" 200 8128
+2018-09-15 16:28:33,652 [Thread-20:6300] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+2018-09-15 16:28:36,138 [Thread-21:9076] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/sign/guest/add/ HTTP/1.1" 200 6353
+2018-09-15 16:29:03,165 [Thread-23:3256] [django.server:124] [basehttp:log_message] [INFO]- "POST /admin/sign/guest/add/ HTTP/1.1" 302 0
+2018-09-15 16:29:03,261 [Thread-24:9136] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/sign/guest/ HTTP/1.1" 200 8641
+2018-09-15 16:29:03,322 [Thread-25:8476] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+2018-09-15 16:29:10,988 [Thread-26:3616] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 2816
+2018-09-15 16:29:11,931 [Thread-27:8948] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/ HTTP/1.1" 200 4146
+2018-09-15 16:31:52,785 [Thread-1:8440] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 2816
+2018-09-15 16:31:54,068 [Thread-3:6236] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 2816
+2018-09-15 16:31:54,981 [Thread-4:9124] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/ HTTP/1.1" 200 4146
+2018-09-15 16:38:30,123 [Thread-3:1192] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/sign/guest/ HTTP/1.1" 200 8476
+2018-09-15 16:38:30,183 [Thread-1:5020] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+2018-09-15 16:40:02,791 [Thread-4:4304] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 2816
+2018-09-15 16:40:03,751 [Thread-5:3452] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/ HTTP/1.1" 200 3188
+2018-09-15 16:40:05,402 [Thread-6:476] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/?page=2 HTTP/1.1" 200 3233
+2018-09-15 16:40:08,140 [Thread-7:8260] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/?page=1 HTTP/1.1" 200 3188
+2018-09-15 16:40:09,065 [Thread-8:8824] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/?page=2 HTTP/1.1" 200 3233
+2018-09-15 16:40:10,690 [Thread-9:8684] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/?page=3 HTTP/1.1" 200 3194
+2018-09-15 16:40:12,511 [Thread-10:3644] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/?page=2 HTTP/1.1" 200 3233
+2018-09-15 16:40:13,807 [Thread-11:1368] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/?page=1 HTTP/1.1" 200 3188
+2018-09-15 16:40:14,859 [Thread-12:2348] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/?page=2 HTTP/1.1" 200 3233
+2018-09-15 16:40:16,134 [Thread-13:9004] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/?page=3 HTTP/1.1" 200 3194
+2018-09-15 16:40:17,408 [Thread-14:9112] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/?page=2 HTTP/1.1" 200 3233
+2018-09-15 16:40:17,999 [Thread-15:7016] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/?page=1 HTTP/1.1" 200 3188
+2018-09-15 16:45:00,569 [Thread-17:9104] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/?page=1 HTTP/1.1" 200 3454
+2018-09-15 16:45:02,767 [Thread-18:6588] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/?page=1/ HTTP/1.1" 200 3454
+2018-09-15 16:45:04,020 [Thread-19:5268] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/?page=2/ HTTP/1.1" 200 3454
+2018-09-15 16:45:05,946 [Thread-20:9056] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/?page=3/ HTTP/1.1" 200 3454
+2018-09-15 16:45:07,756 [Thread-21:3764] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/?page=3/ HTTP/1.1" 200 3454
+2018-09-15 16:45:08,377 [Thread-22:6628] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/?page=2/ HTTP/1.1" 200 3454
+2018-09-15 16:45:09,075 [Thread-23:9152] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/?page=1/ HTTP/1.1" 200 3454
+2018-09-15 16:45:12,157 [Thread-24:1192] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/?page=2/ HTTP/1.1" 200 3454
+2018-09-15 16:45:12,671 [Thread-25:6228] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/?page=3/ HTTP/1.1" 200 3454
+2018-09-15 16:45:14,692 [Thread-26:4840] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/?page=2/ HTTP/1.1" 200 3454
+2018-09-15 16:45:15,337 [Thread-27:2588] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/?page=1/ HTTP/1.1" 200 3454
+2018-09-15 16:45:16,046 [Thread-28:8996] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/?page=2/ HTTP/1.1" 200 3454
+2018-09-15 16:45:17,596 [Thread-29:3132] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/?page=2 HTTP/1.1" 200 3500
+2018-09-15 16:45:18,614 [Thread-30:9076] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/?page=3 HTTP/1.1" 200 3456
+2018-09-15 16:45:20,069 [Thread-31:7772] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/?page=2 HTTP/1.1" 200 3500
+2018-09-15 16:45:20,979 [Thread-32:9168] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/?page=1 HTTP/1.1" 200 3454
+2018-09-15 16:45:22,366 [Thread-33:8272] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/?page=2 HTTP/1.1" 200 3500
+2018-09-15 16:45:40,335 [Thread-35:6716] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/?page=2 HTTP/1.1" 200 3461
+2018-09-15 16:45:41,849 [Thread-36:8524] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/?page=2 HTTP/1.1" 200 3461
+2018-09-15 16:45:42,994 [Thread-37:8684] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/?page=1 HTTP/1.1" 200 3415
+2018-09-15 16:45:44,130 [Thread-38:1796] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/?page=2 HTTP/1.1" 200 3461
+2018-09-15 16:45:44,773 [Thread-39:7776] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/?page=3 HTTP/1.1" 200 3417
+2018-09-15 16:45:45,771 [Thread-40:1168] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/?page=2 HTTP/1.1" 200 3461
+2018-09-15 16:45:46,586 [Thread-41:2832] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/?page=1 HTTP/1.1" 200 3415
+2018-09-15 16:45:47,483 [Thread-42:3024] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/?page=2 HTTP/1.1" 200 3461
+2018-09-15 16:45:48,582 [Thread-43:7816] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/?page=3 HTTP/1.1" 200 3417
+2018-09-15 16:45:56,255 [Thread-44:8972] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/?page=1/ HTTP/1.1" 200 3415
+2018-09-15 16:45:57,057 [Thread-45:6256] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/?page=3/ HTTP/1.1" 200 3415
+2018-09-15 16:45:59,214 [Thread-46:8912] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/?page=1/ HTTP/1.1" 200 3415
+2018-09-15 16:46:00,124 [Thread-47:8980] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/?page=2 HTTP/1.1" 200 3461
+2018-09-15 16:46:01,744 [Thread-48:9004] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/?page=3/ HTTP/1.1" 200 3415
+2018-09-15 16:46:15,974 [Thread-50:9200] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/?page=1/ HTTP/1.1" 200 3412
+2018-09-15 16:46:17,889 [Thread-51:6388] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/?page=2 HTTP/1.1" 200 3458
+2018-09-15 16:46:20,961 [Thread-52:6080] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/?page=3 HTTP/1.1" 200 3414
+2018-09-15 16:46:55,021 [Thread-54:8952] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/?page=3 HTTP/1.1" 200 3435
+2018-09-15 16:46:57,173 [Thread-55:7684] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/?page=3 HTTP/1.1" 200 3435
+2018-09-15 16:46:58,392 [Thread-56:2896] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 2816
+2018-09-15 16:46:59,012 [Thread-57:2096] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/ HTTP/1.1" 200 3433
+2018-09-15 16:47:00,721 [Thread-58:8784] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/?page=1 HTTP/1.1" 200 3433
+2018-09-15 16:47:01,435 [Thread-59:8764] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/?page=2 HTTP/1.1" 200 3479
+2018-09-15 16:47:02,861 [Thread-60:7780] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/?page=3 HTTP/1.1" 200 3435
+2018-09-15 16:47:04,080 [Thread-61:8892] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/?page=2 HTTP/1.1" 200 3479
+2018-09-15 16:47:04,642 [Thread-62:4560] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/?page=1 HTTP/1.1" 200 3433
+2018-09-15 16:47:05,116 [Thread-63:5840] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/?page=3 HTTP/1.1" 200 3435
+2018-09-15 16:47:06,103 [Thread-64:6700] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/?page=1 HTTP/1.1" 200 3433
+2018-09-15 16:47:06,626 [Thread-65:3372] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/?page=3 HTTP/1.1" 200 3435
+2018-09-15 16:47:08,063 [Thread-66:5456] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/?page=1 HTTP/1.1" 200 3433
+2018-09-15 16:47:09,059 [Thread-67:2356] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/?page=3 HTTP/1.1" 200 3435
+2018-09-15 16:47:09,884 [Thread-68:4784] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/?page=1 HTTP/1.1" 200 3433
+2018-09-15 16:47:10,394 [Thread-69:476] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/?page=3 HTTP/1.1" 200 3435
+2018-09-15 16:47:11,525 [Thread-70:8780] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/?page=2 HTTP/1.1" 200 3479
+2018-09-15 16:47:12,360 [Thread-71:1100] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/?page=1 HTTP/1.1" 200 3433
+2018-09-15 16:47:18,491 [Thread-72:7988] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/?page=2 HTTP/1.1" 200 3479
+2018-09-15 16:47:19,516 [Thread-73:8828] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/?page=2 HTTP/1.1" 200 3479
+2018-09-15 16:49:02,987 [Thread-75:6376] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/?page=2 HTTP/1.1" 200 3491
+2018-09-15 16:49:09,100 [Thread-76:868] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/?page=3 HTTP/1.1" 200 3447
+2018-09-15 16:49:10,811 [Thread-77:7356] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/?page=2 HTTP/1.1" 200 3491
+2018-09-15 16:49:14,621 [Thread-78:7776] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/?page=2 HTTP/1.1" 200 3491
+2018-09-15 16:49:15,121 [Thread-79:7760] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/?page=2 HTTP/1.1" 200 3491
+2018-09-15 16:49:17,742 [Thread-80:1168] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/?page=3 HTTP/1.1" 200 3447
+2018-09-15 16:55:07,542 [Thread-1:6332] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 2935
+2018-09-15 16:55:10,161 [Thread-3:8768] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/?page=2 HTTP/1.1" 200 2935
+2018-09-15 16:55:28,884 [Thread-1:7776] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 3041
+2018-09-15 16:55:31,770 [Thread-3:1304] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/ HTTP/1.1" 200 4371
+2018-09-15 17:01:03,485 [Thread-5:7532] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_guest/?name=%E5%B0%8F HTTP/1.1" 200 4267
+2018-09-15 17:06:01,452 [Thread-1:816] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/ HTTP/1.1" 200 4371
+2018-09-15 17:06:12,093 [Thread-1:2180] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/ HTTP/1.1" 200 3445
+2018-09-15 17:06:13,618 [Thread-3:6556] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/?page=2 HTTP/1.1" 200 3491
+2018-09-15 17:06:14,415 [Thread-4:8744] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/?page=3 HTTP/1.1" 200 3447
+2018-09-15 17:06:15,808 [Thread-5:1368] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/?page=2 HTTP/1.1" 200 3491
+2018-09-15 17:08:28,126 [Thread-1:8404] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_guest/?name=%E5%B0%8F HTTP/1.1" 200 4267
+2018-09-15 17:09:36,720 [Thread-1:8884] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_guest/?name=%E5%B0%8F HTTP/1.1" 200 3445
+2018-09-15 17:09:40,429 [Thread-3:7300] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_guest/?name=%E5%B0%8F HTTP/1.1" 200 3445
+2018-09-15 17:09:48,549 [Thread-5:6348] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_guest/?page=2 HTTP/1.1" 200 3491
+2018-09-15 17:09:52,125 [Thread-6:7436] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_guest/?page=3 HTTP/1.1" 200 3447
+2018-09-15 17:09:55,868 [Thread-7:8476] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_guest/?name=12 HTTP/1.1" 200 2886
+2018-09-15 17:10:05,875 [Thread-8:9016] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_guest/?name= HTTP/1.1" 200 3445
+2018-09-15 17:10:09,193 [Thread-9:6268] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_guest/?page=2 HTTP/1.1" 200 3491
+2018-09-15 17:10:11,661 [Thread-10:8276] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_guest/?page=3 HTTP/1.1" 200 3447
+2018-09-15 17:10:15,405 [Thread-11:8696] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_guest/?name=15 HTTP/1.1" 200 3441
+2018-09-15 17:10:18,116 [Thread-12:8000] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_guest/?page=2 HTTP/1.1" 200 3491
+2018-09-15 17:10:18,909 [Thread-13:8508] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_guest/?page=1 HTTP/1.1" 200 3445
+2018-09-15 17:10:22,104 [Thread-14:2976] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_guest/?page=2 HTTP/1.1" 200 3491
+2018-09-15 17:10:23,583 [Thread-15:6352] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_guest/?page=3 HTTP/1.1" 200 3447
+2018-09-15 17:10:30,787 [Thread-16:8396] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_guest/?name=15 HTTP/1.1" 200 3441
+2018-09-15 17:10:39,098 [Thread-17:6332] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_guest/?name=%E5%B0%8F HTTP/1.1" 200 3445
+2018-09-15 17:10:44,611 [Thread-18:3968] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_guest/?page=2 HTTP/1.1" 200 3491
+2018-09-15 17:10:45,730 [Thread-19:2852] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_guest/?page=3 HTTP/1.1" 200 3447
+2018-09-15 17:11:42,002 [Thread-21:8932] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_guest/?name=15 HTTP/1.1" 200 3441
+2018-09-15 17:11:52,034 [Thread-23:8892] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_guest/?name=15 HTTP/1.1" 200 3441
+2018-09-15 17:12:46,943 [Thread-25:6164] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 6088
+2018-09-15 17:12:48,474 [Thread-26:8404] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/sign/guest/ HTTP/1.1" 200 8476
+2018-09-15 17:12:48,533 [Thread-27:9196] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+2018-09-15 17:12:55,585 [Thread-28:8876] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/sign/guest/1/change/ HTTP/1.1" 200 6637
+2018-09-15 17:12:55,632 [Thread-29:896] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+2018-09-15 17:13:02,777 [Thread-30:6836] [django.server:124] [basehttp:log_message] [INFO]- "POST /admin/sign/guest/1/change/ HTTP/1.1" 302 0
+2018-09-15 17:13:02,882 [Thread-31:8456] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/sign/guest/ HTTP/1.1" 200 8641
+2018-09-15 17:13:02,927 [Thread-32:9040] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+2018-09-15 17:13:08,551 [Thread-33:5896] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_guest/?name=15 HTTP/1.1" 200 3334
+2018-09-15 17:13:11,949 [Thread-34:8464] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_guest/?page=2 HTTP/1.1" 200 3491
+2018-09-15 17:13:14,337 [Thread-35:2828] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_guest/?page=3 HTTP/1.1" 200 3447
+2018-09-15 17:13:17,206 [Thread-36:7292] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_guest/?page=2 HTTP/1.1" 200 3491
+2018-09-15 17:13:18,898 [Thread-37:7252] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_guest/?page=1 HTTP/1.1" 200 3445
+2018-09-15 17:13:21,981 [Thread-38:1204] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_guest/?name=15 HTTP/1.1" 200 3334
+2018-09-15 17:13:23,790 [Thread-39:1576] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_guest/?page=2 HTTP/1.1" 200 3491
+2018-09-15 17:15:55,233 [Thread-41:8284] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_guest/?page=2&&name=15 HTTP/1.1" 200 3343
+2018-09-15 17:16:05,217 [Thread-42:7392] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_guest/?page=1&&name=15 HTTP/1.1" 200 3334
+2018-09-15 17:19:32,810 [Thread-1:8316] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_guest/?page=1&&name=15 HTTP/1.1" 200 3615
+2018-09-15 17:20:57,852 [Thread-5:6260] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/ HTTP/1.1" 200 3504
+2018-09-15 17:21:01,242 [Thread-6:8884] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/?page=3 HTTP/1.1" 200 3506
+2018-09-15 17:21:04,637 [Thread-7:5816] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_guest/?name=15 HTTP/1.1" 200 3574
+2018-09-15 17:21:27,070 [Thread-9:9020] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_guest/?name=15 HTTP/1.1" 200 3572
+2018-09-15 17:21:29,342 [Thread-10:9168] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_guest/?page=2 HTTP/1.1" 200 3550
+2018-09-15 17:23:00,621 [Thread-12:9112] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_guest/?page=2 HTTP/1.1" 200 3576
+2018-09-15 17:23:03,922 [Thread-13:8900] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_guest/?name=15 HTTP/1.1" 200 3646
+2018-09-15 17:23:06,912 [Thread-14:8368] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_guest/?page=2 HTTP/1.1" 200 3576
+2018-09-15 17:25:26,566 [Thread-16:8612] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_guest/?page=2 HTTP/1.1" 200 3673
+2018-09-15 17:25:30,246 [Thread-17:8248] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_guest/?name=15 HTTP/1.1" 200 3466
+2018-09-15 17:25:48,646 [Thread-19:4608] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_guest/?page=2&&name=15 HTTP/1.1" 200 3484
+2018-09-15 17:25:52,287 [Thread-20:5392] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_guest/?page=1&&name=15 HTTP/1.1" 200 3475
+2018-09-15 17:25:53,799 [Thread-21:4416] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_guest/?page=2&&name=15 HTTP/1.1" 200 3484
+2018-09-15 17:25:55,283 [Thread-22:3484] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_guest/?page=1&&name=15 HTTP/1.1" 200 3475
+2018-09-15 17:25:57,229 [Thread-23:5636] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_guest/?page=2&&name=15 HTTP/1.1" 200 3484
+2018-09-15 17:25:58,839 [Thread-24:7648] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_guest/?page=1&&name=15 HTTP/1.1" 200 3475
+2018-09-15 17:25:59,893 [Thread-25:6308] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_guest/?page=2&&name=15 HTTP/1.1" 200 3484
+2018-09-15 17:26:44,457 [Thread-27:7928] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_guest/?page=2&&name=15 HTTP/1.1" 200 3484
+2018-09-15 17:26:50,050 [Thread-28:9172] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/ HTTP/1.1" 200 3597
+2018-09-15 17:26:55,586 [Thread-30:8508] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_guest/?name=15 HTTP/1.1" 200 3475
+2018-09-15 17:26:59,245 [Thread-31:8000] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_guest/?name=15&&page=2 HTTP/1.1" 200 3484
+2018-09-15 17:27:03,019 [Thread-32:8776] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_guest/?name=15&&page=1 HTTP/1.1" 200 3475
+2018-09-15 17:29:39,626 [Thread-1:8932] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 6375
+2018-09-15 17:29:41,622 [Thread-3:1796] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/sign/event/add/ HTTP/1.1" 200 6003
+2018-09-15 17:29:41,694 [Thread-4:7568] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+2018-09-15 17:30:21,846 [Thread-5:6488] [django.server:124] [basehttp:log_message] [INFO]- "POST /admin/sign/event/add/ HTTP/1.1" 302 0
+2018-09-15 17:30:21,912 [Thread-6:8600] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/sign/event/ HTTP/1.1" 200 7137
+2018-09-15 17:30:21,949 [Thread-7:8976] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+2018-09-15 17:30:23,958 [Thread-8:8784] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/sign/event/add/ HTTP/1.1" 200 6003
+2018-09-15 17:30:54,398 [Thread-10:8792] [django.server:124] [basehttp:log_message] [INFO]- "POST /admin/sign/event/add/ HTTP/1.1" 302 0
+2018-09-15 17:30:54,474 [Thread-11:4416] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/sign/event/ HTTP/1.1" 200 7640
+2018-09-15 17:30:54,512 [Thread-12:3484] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+2018-09-15 17:30:59,447 [Thread-13:2900] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/sign/event/add/ HTTP/1.1" 200 6003
+2018-09-15 17:31:19,071 [Thread-15:4780] [django.server:124] [basehttp:log_message] [INFO]- "POST /admin/sign/event/add/ HTTP/1.1" 302 0
+2018-09-15 17:31:19,154 [Thread-16:5556] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/sign/event/ HTTP/1.1" 200 8150
+2018-09-15 17:31:19,217 [Thread-17:6672] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+2018-09-15 17:31:23,197 [Thread-18:8796] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/sign/event/add/ HTTP/1.1" 200 6003
+2018-09-15 17:31:41,301 [Thread-20:7188] [django.server:124] [basehttp:log_message] [INFO]- "POST /admin/sign/event/add/ HTTP/1.1" 302 0
+2018-09-15 17:31:41,403 [Thread-21:8000] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/sign/event/ HTTP/1.1" 200 8664
+2018-09-15 17:31:41,445 [Thread-22:6696] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+2018-09-15 17:31:51,264 [Thread-23:7640] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/sign/event/add/ HTTP/1.1" 200 6003
+2018-09-15 17:32:08,281 [Thread-26:8740] [django.server:124] [basehttp:log_message] [INFO]- "POST /admin/sign/event/add/ HTTP/1.1" 302 0
+2018-09-15 17:32:08,368 [Thread-25:5484] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/sign/event/ HTTP/1.1" 200 9178
+2018-09-15 17:32:08,404 [Thread-27:5816] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+2018-09-15 17:32:11,110 [Thread-28:1536] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/sign/event/add/ HTTP/1.1" 200 6003
+2018-09-15 17:32:29,545 [Thread-30:9160] [django.server:124] [basehttp:log_message] [INFO]- "POST /admin/sign/event/add/ HTTP/1.1" 302 0
+2018-09-15 17:32:29,640 [Thread-31:6328] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/sign/event/ HTTP/1.1" 200 9701
+2018-09-15 17:32:29,680 [Thread-32:8684] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+2018-09-15 17:32:33,101 [Thread-33:5144] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/ HTTP/1.1" 200 3597
+2018-09-15 17:32:34,653 [Thread-34:1936] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 3599
+2018-09-15 17:32:41,062 [Thread-35:8624] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_name/?name=%E5%B0%8F%E7%B1%B3 HTTP/1.1" 200 3319
+2018-09-15 17:32:45,881 [Thread-36:7580] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_name/?page=2 HTTP/1.1" 200 3691
+2018-09-15 17:33:39,110 [Thread-1:5880] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_name/?page=2 HTTP/1.1" 200 3691
+2018-09-15 17:33:40,005 [Thread-3:7748] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 3599
+2018-09-15 17:33:44,754 [Thread-4:4840] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_name/?name=%E5%B0%8F HTTP/1.1" 200 3349
+2018-09-15 17:33:46,616 [Thread-5:5916] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_name/?name=%E5%B0%8F&&page=2 HTTP/1.1" 200 3094
+2018-09-15 17:33:49,971 [Thread-6:8332] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_name/?name=%E5%B0%8F&&page=1 HTTP/1.1" 200 3349
+2018-09-15 17:33:51,350 [Thread-7:7776] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_name/?name=%E5%B0%8F&&page=2 HTTP/1.1" 200 3094
+2018-09-15 17:33:52,996 [Thread-8:2840] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_name/?name=%E5%B0%8F&&page=1 HTTP/1.1" 200 3349
+2018-09-15 17:34:02,570 [Thread-9:8672] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_name/?name=%E5%B0%8F%E7%B1%B3 HTTP/1.1" 200 3358
+2018-09-15 17:34:07,224 [Thread-10:9136] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 3599
+2018-09-15 17:34:07,578 [Thread-11:8636] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 3599
+2018-09-15 17:34:22,424 [Thread-1:4216] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 4697
+2018-09-15 17:34:26,586 [Thread-3:7436] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/ HTTP/1.1" 200 4417
+2018-09-15 18:11:23,019 [Thread-1:8508] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/sign/event/add/ HTTP/1.1" 200 6003
+2018-09-15 18:11:24,283 [Thread-3:8412] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 6682
+2018-09-15 18:11:26,215 [Thread-4:7928] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/sign/guest/ HTTP/1.1" 200 8476
+2018-09-15 18:11:26,260 [Thread-5:7948] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+2018-09-15 18:11:30,920 [Thread-6:7112] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/sign/guest/6/change/ HTTP/1.1" 200 6920
+2018-09-15 18:11:30,967 [Thread-7:7344] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+2018-09-15 18:11:33,678 [Thread-8:8044] [django.server:124] [basehttp:log_message] [INFO]- "POST /admin/sign/guest/6/change/ HTTP/1.1" 302 0
+2018-09-15 18:11:33,754 [Thread-9:5208] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/sign/guest/ HTTP/1.1" 200 8641
+2018-09-15 18:11:33,791 [Thread-11:8444] [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+2018-09-15 18:11:33,801 [Thread-10:7092] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+2018-09-15 18:11:35,682 [Thread-12:1200] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/sign/guest/5/change/ HTTP/1.1" 200 6918
+2018-09-15 18:11:35,716 [Thread-13:7340] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+2018-09-15 18:11:38,263 [Thread-14:3932] [django.server:124] [basehttp:log_message] [INFO]- "POST /admin/sign/guest/5/change/ HTTP/1.1" 302 0
+2018-09-15 18:11:38,345 [Thread-15:5556] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/sign/guest/ HTTP/1.1" 200 8641
+2018-09-15 18:11:38,375 [Thread-16:4348] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+2018-09-15 18:11:41,360 [Thread-17:4840] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/sign/guest/4/change/ HTTP/1.1" 200 6915
+2018-09-15 18:11:41,409 [Thread-18:8796] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+2018-09-15 18:11:43,905 [Thread-19:8744] [django.server:124] [basehttp:log_message] [INFO]- "POST /admin/sign/guest/4/change/ HTTP/1.1" 302 0
+2018-09-15 18:11:44,011 [Thread-20:1204] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/sign/guest/ HTTP/1.1" 200 8641
+2018-09-15 18:11:44,059 [Thread-21:7640] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+2018-09-15 18:11:45,411 [Thread-22:2876] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/sign/guest/2/change/ HTTP/1.1" 200 6918
+2018-09-15 18:11:45,460 [Thread-23:3320] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+2018-09-15 18:11:47,896 [Thread-24:9124] [django.server:124] [basehttp:log_message] [INFO]- "POST /admin/sign/guest/2/change/ HTTP/1.1" 302 0
+2018-09-15 18:11:47,994 [Thread-25:3452] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/sign/guest/ HTTP/1.1" 200 8641
+2018-09-15 18:11:48,036 [Thread-26:3644] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+2018-09-15 18:11:49,971 [Thread-27:3484] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/sign/guest/1/change/ HTTP/1.1" 200 6918
+2018-09-15 18:11:50,019 [Thread-28:6168] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+2018-09-15 18:11:52,719 [Thread-29:1664] [django.server:124] [basehttp:log_message] [INFO]- "POST /admin/sign/guest/1/change/ HTTP/1.1" 302 0
+2018-09-15 18:11:52,801 [Thread-30:3764] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/sign/guest/ HTTP/1.1" 200 8641
+2018-09-15 18:11:52,837 [Thread-31:4668] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+2018-09-15 18:11:54,900 [Thread-32:2976] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/sign/guest/3/change/ HTTP/1.1" 200 6914
+2018-09-15 18:11:54,947 [Thread-33:8532] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+2018-09-15 18:11:56,954 [Thread-34:9104] [django.server:124] [basehttp:log_message] [INFO]- "POST /admin/sign/guest/3/change/ HTTP/1.1" 302 0
+2018-09-15 18:11:57,039 [Thread-35:8932] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/sign/guest/ HTTP/1.1" 200 8641
+2018-09-15 18:11:57,074 [Thread-36:1116] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+2018-09-15 18:12:01,495 [Thread-37:7300] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/ HTTP/1.1" 200 4444
+2018-09-15 18:12:07,009 [Thread-38:3904] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 6010
+2018-09-15 18:13:01,486 [Thread-40:5028] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 6051
+2018-09-15 18:13:10,677 [Thread-41:7356] [django.request:152] [base:get_response] [WARNING]- Not Found: /logout/
+2018-09-15 18:13:10,678 [Thread-41:7356] [django.server:124] [basehttp:log_message] [WARNING]- "GET /logout/ HTTP/1.1" 404 3940
+2018-09-15 18:13:13,886 [Thread-43:2840] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 6051
+2018-09-15 18:13:20,545 [Thread-44:6640] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 527
+2018-09-15 18:13:30,609 [Thread-46:4700] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/sign/guest/6/change/ HTTP/1.1" 200 6912
+2018-09-15 18:13:30,661 [Thread-47:8764] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+2018-09-15 18:13:33,757 [Thread-48:5268] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/sign/guest/ HTTP/1.1" 200 8476
+2018-09-15 18:13:35,601 [Thread-49:6388] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 6682
+2018-09-15 18:13:46,178 [Thread-51:8396] [django.server:124] [basehttp:log_message] [INFO]- "POST /login_action/ HTTP/1.1" 302 0
+2018-09-15 18:13:46,210 [Thread-52:1168] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 6051
+2018-09-15 18:13:48,929 [Thread-53:4416] [django.request:152] [base:get_response] [WARNING]- Not Found: /sign_index/1/
+2018-09-15 18:13:48,930 [Thread-53:4416] [django.server:124] [basehttp:log_message] [WARNING]- "GET /sign_index/1/ HTTP/1.1" 404 3958
+2018-09-15 18:14:07,579 [Thread-55:3984] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/ HTTP/1.1" 200 4444
+2018-09-15 18:14:09,157 [Thread-56:1304] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 6051
+2018-09-15 18:14:14,967 [Thread-57:4492] [django.request:152] [base:get_response] [WARNING]- Not Found: /sign_index/2/
+2018-09-15 18:14:14,968 [Thread-57:4492] [django.server:124] [basehttp:log_message] [WARNING]- "GET /sign_index/2/ HTTP/1.1" 404 3958
+2018-09-15 18:15:40,588 [Thread-1:4584] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 6051
+2018-09-15 18:15:42,011 [Thread-3:8804] [django.server:124] [basehttp:log_message] [INFO]- "GET /sign_index/1/ HTTP/1.1" 200 1867
+2018-09-15 18:17:12,739 [Thread-5:740] [django.server:124] [basehttp:log_message] [INFO]- "GET /sign_index/1/ HTTP/1.1" 200 1867
+2018-09-15 18:17:16,791 [Thread-6:2900] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/ HTTP/1.1" 200 4444
+2018-09-15 18:17:18,533 [Thread-7:4348] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/ HTTP/1.1" 200 4444
+2018-09-15 18:17:21,020 [Thread-8:1368] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 6051
+2018-09-15 18:17:22,471 [Thread-9:2876] [django.server:124] [basehttp:log_message] [INFO]- "GET /sign_index/1/ HTTP/1.1" 200 1867
+2018-09-15 18:17:23,743 [Thread-10:3320] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 6051
+2018-09-15 18:17:24,983 [Thread-11:3452] [django.server:124] [basehttp:log_message] [INFO]- "GET /sign_index/1/ HTTP/1.1" 200 1867
+2018-09-15 18:19:05,853 [Thread-13:8420] [django.server:124] [basehttp:log_message] [INFO]- "GET /sign_index/1/ HTTP/1.1" 200 1954
+2018-09-15 18:19:10,885 [Thread-14:8436] [django.server:124] [basehttp:log_message] [INFO]- "GET /sign_index/1/ HTTP/1.1" 200 1954
+2018-09-15 18:19:16,489 [Thread-16:6424] [django.server:124] [basehttp:log_message] [INFO]- "GET /sign_index/1/ HTTP/1.1" 200 1954
+2018-09-15 18:19:24,009 [Thread-17:864] [django.server:124] [basehttp:log_message] [INFO]- "GET /sign_index/1/ HTTP/1.1" 200 1954
+2018-09-15 18:19:26,630 [Thread-18:8940] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /sign_index_action/1
+Traceback (most recent call last):
+  File "D:\python3.6.5\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "D:\python3.6.5\lib\site-packages\django\utils\deprecation.py", line 138, in __call__
+    response = self.process_request(request)
+  File "D:\python3.6.5\lib\site-packages\django\middleware\common.py", line 63, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "D:\python3.6.5\lib\site-packages\django\middleware\common.py", line 101, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to localhost:8000/sign_index_action/1/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2018-09-15 18:19:26,785 [Thread-18:8940] [django.server:124] [basehttp:log_message] [ERROR]- "POST /sign_index_action/1 HTTP/1.1" 500 69080
+2018-09-15 18:19:34,860 [Thread-19:868] [django.server:124] [basehttp:log_message] [INFO]- "GET /sign_index/1/ HTTP/1.1" 200 1954
+2018-09-15 18:19:41,116 [Thread-21:9180] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/sign/guest/ HTTP/1.1" 200 8476
+2018-09-15 18:19:41,162 [Thread-22:8440] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+2018-09-15 18:19:56,935 [Thread-23:8092] [django.server:124] [basehttp:log_message] [INFO]- "GET /sign_index/2/ HTTP/1.1" 200 1954
+2018-09-15 18:19:58,943 [Thread-24:8628] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /sign_index_action/2
+Traceback (most recent call last):
+  File "D:\python3.6.5\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "D:\python3.6.5\lib\site-packages\django\utils\deprecation.py", line 138, in __call__
+    response = self.process_request(request)
+  File "D:\python3.6.5\lib\site-packages\django\middleware\common.py", line 63, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "D:\python3.6.5\lib\site-packages\django\middleware\common.py", line 101, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to localhost:8000/sign_index_action/2/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2018-09-15 18:19:59,008 [Thread-24:8628] [django.server:124] [basehttp:log_message] [ERROR]- "POST /sign_index_action/2 HTTP/1.1" 500 69080
+2018-09-15 18:21:27,250 [Thread-26:8784] [django.server:124] [basehttp:log_message] [INFO]- "GET /sign_index/2/ HTTP/1.1" 200 1954
+2018-09-15 18:21:44,163 [Thread-29:8312] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /sign_index_action/2
+Traceback (most recent call last):
+  File "D:\python3.6.5\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "D:\python3.6.5\lib\site-packages\django\utils\deprecation.py", line 138, in __call__
+    response = self.process_request(request)
+  File "D:\python3.6.5\lib\site-packages\django\middleware\common.py", line 63, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "D:\python3.6.5\lib\site-packages\django\middleware\common.py", line 101, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to localhost:8000/sign_index_action/2/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2018-09-15 18:21:44,230 [Thread-29:8312] [django.server:124] [basehttp:log_message] [ERROR]- "POST /sign_index_action/2 HTTP/1.1" 500 69080
+2018-09-15 18:22:31,272 [Thread-32:8876] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 6051
+2018-09-15 18:22:32,823 [Thread-33:7548] [django.server:124] [basehttp:log_message] [INFO]- "GET /sign_index/1/ HTTP/1.1" 200 1955
+2018-09-15 18:22:36,915 [Thread-34:9056] [django.server:124] [basehttp:log_message] [INFO]- "GET /sign_index/2/ HTTP/1.1" 200 1955
+2018-09-15 18:22:46,259 [Thread-36:7624] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 6051
+2018-09-15 18:22:47,788 [Thread-37:8108] [django.server:124] [basehttp:log_message] [INFO]- "GET /sign_index/2/ HTTP/1.1" 200 1955
+2018-09-15 18:22:52,463 [Thread-38:8540] [django.security.csrf:160] [csrf:_reject] [WARNING]- Forbidden (CSRF token missing or incorrect.): /sign_index_action/2/
+2018-09-15 18:22:52,467 [Thread-38:8540] [django.server:124] [basehttp:log_message] [WARNING]- "POST /sign_index_action/2/ HTTP/1.1" 403 2497
+2018-09-15 18:23:16,162 [Thread-40:2180] [django.security.csrf:160] [csrf:_reject] [WARNING]- Forbidden (CSRF token missing or incorrect.): /sign_index_action/2/
+2018-09-15 18:23:16,166 [Thread-40:2180] [django.server:124] [basehttp:log_message] [WARNING]- "POST /sign_index_action/2/ HTTP/1.1" 403 2497
+2018-09-15 18:23:19,258 [Thread-41:8804] [django.server:124] [basehttp:log_message] [INFO]- "GET /sign_index/2/ HTTP/1.1" 200 2091
+2018-09-15 18:23:21,853 [Thread-42:8408] [django.server:124] [basehttp:log_message] [INFO]- "POST /sign_index_action/2/ HTTP/1.1" 200 2127
+2018-09-15 18:23:28,642 [Thread-43:9008] [django.server:124] [basehttp:log_message] [INFO]- "POST /sign_index_action/2/ HTTP/1.1" 200 2103
+2018-09-15 18:23:32,978 [Thread-44:8456] [django.server:124] [basehttp:log_message] [INFO]- "POST /sign_index_action/2/ HTTP/1.1" 200 2127
+2018-09-15 18:23:48,860 [Thread-46:8048] [django.server:124] [basehttp:log_message] [INFO]- "POST /sign_index_action/2/ HTTP/1.1" 200 2127
+2018-09-15 18:24:00,887 [Thread-49:8164] [django.server:124] [basehttp:log_message] [INFO]- "POST /sign_index_action/2/ HTTP/1.1" 200 2115
+2018-09-15 18:24:16,273 [Thread-52:5176] [django.server:124] [basehttp:log_message] [INFO]- "POST /sign_index_action/2/ HTTP/1.1" 200 2103
+2018-09-15 18:24:19,611 [Thread-53:5972] [django.server:124] [basehttp:log_message] [INFO]- "POST /sign_index_action/2/ HTTP/1.1" 200 2108
+2018-09-15 18:24:21,883 [Thread-54:2852] [django.server:124] [basehttp:log_message] [INFO]- "POST /sign_index_action/2/ HTTP/1.1" 200 2103
+2018-09-15 18:24:26,682 [Thread-55:8964] [django.server:124] [basehttp:log_message] [INFO]- "POST /sign_index_action/2/ HTTP/1.1" 200 2108
+2018-09-15 18:24:29,952 [Thread-56:5380] [django.server:124] [basehttp:log_message] [INFO]- "POST /sign_index_action/2/ HTTP/1.1" 200 2108
+2018-09-15 18:24:33,039 [Thread-57:8412] [django.server:124] [basehttp:log_message] [INFO]- "POST /sign_index_action/2/ HTTP/1.1" 200 2103
+2018-09-15 18:24:49,014 [Thread-59:4508] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/sign/guest/ HTTP/1.1" 200 8476
+2018-09-15 18:24:49,061 [Thread-60:8840] [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+2018-09-15 18:27:39,831 [Thread-1:1116] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 6051
+2018-09-15 18:27:44,625 [Thread-3:8956] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/ HTTP/1.1" 200 4441
+2018-09-15 18:27:49,357 [Thread-4:8868] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 6051
+2018-09-15 18:27:51,091 [Thread-5:8948] [django.server:124] [basehttp:log_message] [INFO]- "GET /sign_index/3/ HTTP/1.1" 200 2093
+2018-09-15 18:27:54,747 [Thread-6:8072] [django.server:124] [basehttp:log_message] [INFO]- "POST /sign_index_action/3/ HTTP/1.1" 200 2117
+2018-09-15 18:27:57,552 [Thread-7:6228] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 6051
+2018-09-15 18:27:58,625 [Thread-8:4148] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 6051
+2018-09-15 18:28:00,163 [Thread-9:8588] [django.server:124] [basehttp:log_message] [INFO]- "GET /logout/ HTTP/1.1" 302 0
+2018-09-15 18:28:00,350 [Thread-10:5636] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 527
+2018-09-15 18:29:57,038 [Thread-11:8684] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 698
+2018-09-15 18:30:04,757 [Thread-12:6512] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 1202
+2018-09-15 18:30:23,327 [Thread-14:2064] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 1745
+2018-09-15 18:30:33,218 [Thread-15:3920] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 1241
+2018-09-15 18:31:08,652 [Thread-17:5144] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 1397
+2018-09-15 18:31:16,181 [Thread-18:5504] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 1397
+2018-09-15 18:31:16,941 [Thread-19:7532] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 1397
+2018-09-15 18:31:38,419 [Thread-21:9056] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 1424
+2018-09-15 18:31:39,740 [Thread-22:8392] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 1424
+2018-09-15 18:31:51,941 [Thread-24:8308] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 1425
+2018-09-15 18:31:53,400 [Thread-25:6556] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 1425
+2018-09-15 18:32:04,046 [Thread-27:6116] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 1424
+2018-09-15 18:32:04,701 [Thread-28:8048] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 1424
+2018-09-15 18:32:17,004 [Thread-30:8324] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 1397
+2018-09-15 18:33:18,053 [Thread-33:3932] [django.server:124] [basehttp:log_message] [INFO]- "POST /login_action/ HTTP/1.1" 302 0
+2018-09-15 18:33:18,095 [Thread-34:4348] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 6051
+2018-09-15 18:33:22,081 [Thread-35:6164] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/ HTTP/1.1" 200 4441
+2018-09-15 18:33:23,201 [Thread-36:8776] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 6051
+2018-09-15 18:33:24,105 [Thread-37:8696] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 6051
+2018-09-15 18:33:25,073 [Thread-38:7988] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/ HTTP/1.1" 200 4441
+2018-09-15 18:33:25,640 [Thread-39:3968] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/ HTTP/1.1" 200 4441
+2018-09-15 18:33:26,211 [Thread-40:8972] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/ HTTP/1.1" 200 4441
+2018-09-15 18:33:26,619 [Thread-41:6320] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/ HTTP/1.1" 200 4441
+2018-09-15 18:41:42,217 [Thread-43:5980] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 6051
+2018-09-15 18:41:43,326 [Thread-44:5144] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 6051
+2018-09-15 18:41:44,543 [Thread-45:5504] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/ HTTP/1.1" 200 4441
+2018-09-15 18:41:45,253 [Thread-46:8464] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 6051
+2018-09-15 18:41:45,872 [Thread-47:7532] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 6051
+2018-09-15 18:41:47,705 [Thread-48:8296] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/ HTTP/1.1" 200 4441
+2018-09-15 18:41:48,465 [Thread-49:5248] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 6051
+2018-09-15 18:41:49,086 [Thread-50:9056] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 6051
+2018-09-15 18:41:50,288 [Thread-51:8392] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/ HTTP/1.1" 200 4441
+2018-09-15 18:41:51,092 [Thread-52:8644] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 6051
+2018-09-15 18:41:51,740 [Thread-53:4316] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 6051
+2018-09-15 18:41:52,710 [Thread-54:6332] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/ HTTP/1.1" 200 4441
+2018-09-15 18:41:53,191 [Thread-55:5464] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 6051
+2018-09-15 18:41:54,194 [Thread-56:7776] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/ HTTP/1.1" 200 4441
+2018-09-15 18:41:54,745 [Thread-57:8328] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 6051
+2018-09-15 18:41:55,451 [Thread-58:3764] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/ HTTP/1.1" 200 4441
+2018-09-15 18:41:56,063 [Thread-59:8652] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 6051
+2018-09-15 18:41:56,664 [Thread-60:5484] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/ HTTP/1.1" 200 4441
+2018-09-15 20:19:27,778 [Thread-62:8780] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 6051
+2018-09-15 20:19:45,212 [Thread-65:7084] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_name/?name= HTTP/1.1" 200 6051
+2018-09-15 20:19:47,015 [Thread-66:1080] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_name/?name= HTTP/1.1" 200 6051
+2018-09-15 20:19:52,627 [Thread-67:6672] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_name/?name= HTTP/1.1" 200 6051
+2018-09-15 20:20:11,230 [Thread-69:8612] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/ HTTP/1.1" 200 4441
+2018-09-15 20:20:12,220 [Thread-70:8420] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_guest/?name= HTTP/1.1" 200 4441
+2018-09-15 20:20:39,993 [Thread-72:2828] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_guest/?name= HTTP/1.1" 200 4441
+2018-09-15 20:20:40,676 [Thread-73:5896] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_guest/?name= HTTP/1.1" 200 4441
+2018-09-15 20:20:41,217 [Thread-74:9152] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_guest/?name= HTTP/1.1" 200 4441
+2018-09-15 20:20:41,800 [Thread-75:8408] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_guest/?name= HTTP/1.1" 200 4441
+2018-09-15 20:25:35,983 [Thread-1:476] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /search_guest/
+Traceback (most recent call last):
+  File "D:\python3.6.5\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "D:\python3.6.5\lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view sign.views.search_guest didn't return an HttpResponse object. It returned None instead.
+2018-09-15 20:25:36,209 [Thread-1:476] [django.server:124] [basehttp:log_message] [ERROR]- "GET /search_guest/?name= HTTP/1.1" 500 61724
+2018-09-15 20:26:12,929 [Thread-1:8256] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/ HTTP/1.1" 200 4441
+2018-09-15 20:26:14,659 [Thread-3:9200] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_guest/?name= HTTP/1.1" 200 4441
+2018-09-15 20:26:15,611 [Thread-4:7188] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_guest/?name= HTTP/1.1" 200 4441
+2018-09-15 20:26:16,181 [Thread-5:3968] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_guest/?name= HTTP/1.1" 200 4441
+2018-09-15 20:26:16,766 [Thread-6:5384] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_guest/?name= HTTP/1.1" 200 4441
+2018-09-15 20:26:17,201 [Thread-7:8812] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_guest/?name= HTTP/1.1" 200 4441
+2018-09-15 20:26:17,592 [Thread-8:3372] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_guest/?name= HTTP/1.1" 200 4441
+2018-09-15 20:26:17,896 [Thread-9:8804] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_guest/?name= HTTP/1.1" 200 4441
+2018-09-15 20:26:20,455 [Thread-10:9100] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_guest/?name= HTTP/1.1" 200 4441
+2018-09-15 20:26:21,045 [Thread-11:2408] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_guest/?name= HTTP/1.1" 200 4441
+2018-09-15 20:26:21,338 [Thread-12:2832] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_guest/?name= HTTP/1.1" 200 4441
+2018-09-15 20:26:21,619 [Thread-13:8880] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_guest/?name= HTTP/1.1" 200 4441
+2018-09-15 20:26:22,263 [Thread-14:9168] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_guest/?name= HTTP/1.1" 200 4441
+2018-09-15 20:26:22,551 [Thread-15:4780] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_guest/?name= HTTP/1.1" 200 4441
+2018-09-15 20:26:22,845 [Thread-16:5132] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_guest/?name= HTTP/1.1" 200 4441
+2018-09-15 20:26:23,149 [Thread-17:2240] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_guest/?name= HTTP/1.1" 200 4441
+2018-09-15 20:26:28,513 [Thread-18:5456] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_guest/?name= HTTP/1.1" 200 4441
+2018-09-15 20:26:28,809 [Thread-19:9040] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_guest/?name= HTTP/1.1" 200 4441
+2018-09-15 20:26:29,092 [Thread-20:7496] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_guest/?name= HTTP/1.1" 200 4441
+2018-09-15 20:26:29,496 [Thread-21:7816] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_guest/?name= HTTP/1.1" 200 4441
+2018-09-15 20:26:29,788 [Thread-22:8240] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_guest/?name= HTTP/1.1" 200 4441
+2018-09-15 20:26:29,965 [Thread-23:8328] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_guest/?name= HTTP/1.1" 200 4441
+2018-09-15 20:26:29,999 [Thread-23:8328] [django.server:124] [basehttp:log_message] [ERROR]- "GET /search_guest/?name= HTTP/1.1" 500 59
+2018-09-15 20:26:30,145 [Thread-24:6588] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_guest/?name= HTTP/1.1" 200 4441
+2018-09-15 20:26:30,435 [Thread-25:8324] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_guest/?name= HTTP/1.1" 200 4441
+2018-09-15 20:26:30,726 [Thread-26:9020] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_guest/?name= HTTP/1.1" 200 4441
+2018-09-15 20:26:31,197 [Thread-27:916] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_guest/?name= HTTP/1.1" 200 4441
+2018-09-15 20:26:31,729 [Thread-28:9160] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_guest/?name= HTTP/1.1" 200 4441
+2018-09-15 20:26:32,042 [Thread-29:8504] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_guest/?name= HTTP/1.1" 200 4441
+2018-09-15 20:26:32,389 [Thread-30:9108] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_guest/?name= HTTP/1.1" 200 4441
+2018-09-15 20:26:36,037 [Thread-31:8404] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_guest/?name= HTTP/1.1" 200 4441
+2018-09-15 20:26:37,475 [Thread-32:6192] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 6051
+2018-09-15 20:26:39,176 [Thread-33:4216] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 6051
+2018-09-15 20:26:42,750 [Thread-34:8312] [django.server:124] [basehttp:log_message] [INFO]- "GET /logout/ HTTP/1.1" 302 0
+2018-09-15 20:26:42,932 [Thread-35:6352] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 1397
+2018-09-15 20:26:53,548 [Thread-36:7988] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 302 0
+2018-09-15 20:26:53,557 [Thread-37:7100] [django.server:124] [basehttp:log_message] [INFO]- "GET /accounts/login/?next=/event_manage/ HTTP/1.1" 200 1397
+2018-09-15 20:26:55,369 [Thread-38:8740] [django.server:124] [basehttp:log_message] [INFO]- "POST /login_action/ HTTP/1.1" 302 0
+2018-09-15 20:26:55,414 [Thread-39:7776] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 6051
+2018-09-15 20:27:01,582 [Thread-40:4496] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/ HTTP/1.1" 200 4441
+2018-09-15 20:27:02,472 [Thread-41:3896] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 6051
+2018-09-15 20:27:03,379 [Thread-42:9016] [django.server:124] [basehttp:log_message] [INFO]- "GET /sign_index/2/ HTTP/1.1" 200 2091
+2018-09-15 20:27:49,431 [Thread-44:3616] [django.server:124] [basehttp:log_message] [INFO]- "GET /sign_index/2/ HTTP/1.1" 200 2091
+2018-09-15 20:27:54,095 [Thread-45:8008] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 6051
+2018-09-15 20:27:55,417 [Thread-46:8280] [django.server:124] [basehttp:log_message] [INFO]- "GET /logout/ HTTP/1.1" 302 0
+2018-09-15 20:27:55,640 [Thread-47:8856] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 1715
+2018-09-15 20:28:42,227 [Thread-48:8452] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 1813
+2018-09-15 20:29:02,617 [Thread-51:5192] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 1833
+2018-09-15 20:29:26,379 [Thread-54:9032] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 1775
+2018-09-15 20:29:34,053 [Thread-55:3452] [django.server:124] [basehttp:log_message] [INFO]- "POST /login_action/ HTTP/1.1" 302 0
+2018-09-15 20:29:34,092 [Thread-56:4508] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 6051
+2018-09-15 20:29:36,953 [Thread-57:7948] [django.server:124] [basehttp:log_message] [INFO]- "GET /logout/ HTTP/1.1" 302 0
+2018-09-15 20:29:36,959 [Thread-58:8672] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 1775
+2018-09-15 20:30:15,415 [Thread-60:2828] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 1795
+2018-09-15 20:30:34,762 [Thread-63:9096] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 1643
+2018-09-15 20:30:46,673 [Thread-66:6336] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 1703
+2018-09-15 20:30:48,401 [Thread-67:8300] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 1703
+2018-09-15 20:30:49,570 [Thread-68:7580] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 1703
+2018-09-15 20:30:50,604 [Thread-69:8628] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 1703
+2018-09-15 20:30:50,908 [Thread-70:6628] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 1703
+2018-09-15 20:30:51,177 [Thread-71:2180] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 1703
+2018-09-15 20:31:12,814 [Thread-73:5524] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 1709
+2018-09-15 20:31:31,188 [Thread-76:4840] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 1715
+2018-09-15 20:32:46,349 [Thread-79:1304] [django.server:124] [basehttp:log_message] [INFO]- "POST /login_action/ HTTP/1.1" 200 1778
+2018-09-15 20:32:51,722 [Thread-80:4236] [django.server:124] [basehttp:log_message] [INFO]- "POST /login_action/ HTTP/1.1" 200 1778
+2018-09-15 20:32:53,499 [Thread-81:8360] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /login_action/
+Traceback (most recent call last):
+  File "D:\python3.6.5\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "D:\python3.6.5\lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view sign.views.login_action didn't return an HttpResponse object. It returned None instead.
+2018-09-15 20:32:53,554 [Thread-81:8360] [django.server:124] [basehttp:log_message] [ERROR]- "GET /login_action/ HTTP/1.1" 500 61072
+2018-09-15 20:33:04,217 [Thread-83:5484] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 1751
+2018-09-15 20:33:29,050 [Thread-86:1196] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 1751
+2018-09-15 20:34:03,758 [Thread-89:1536] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 1768
+2018-09-15 20:34:16,532 [Thread-92:6748] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 1767
+2018-09-15 20:35:03,445 [Thread-95:3904] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 1793
+2018-09-15 20:35:12,819 [Thread-96:6080] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 1790
+2018-09-15 20:35:43,259 [Thread-98:8316] [django.server:124] [basehttp:log_message] [INFO]- "POST /login_action/ HTTP/1.1" 302 0
+2018-09-15 20:35:43,292 [Thread-99:9064] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 6051
+2018-09-15 20:35:44,415 [Thread-100:7580] [django.server:124] [basehttp:log_message] [INFO]- "GET /sign_index/1/ HTTP/1.1" 200 2091
+2018-09-15 20:35:45,655 [Thread-101:6628] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 6051
+2018-09-15 20:35:46,404 [Thread-102:2180] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/ HTTP/1.1" 200 4441
+2018-09-15 20:35:47,614 [Thread-103:4472] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 6051
+2018-09-15 20:35:48,686 [Thread-104:8368] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/ HTTP/1.1" 200 4441
+2018-09-15 20:35:52,072 [Thread-105:8928] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 6051
+2018-09-15 20:35:52,974 [Thread-106:1364] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/ HTTP/1.1" 200 4441
+2018-09-15 20:36:18,224 [Thread-108:6236] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 6051
+2018-09-15 20:36:20,602 [Thread-109:6348] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 6051
+2018-09-15 20:36:22,737 [Thread-110:5144] [django.server:124] [basehttp:log_message] [INFO]- "GET /logout/ HTTP/1.1" 302 0
+2018-09-15 20:36:22,956 [Thread-111:508] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 1835
+2018-09-15 20:36:52,792 [Thread-112:6168] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 1885
+2018-09-15 20:37:05,460 [Thread-115:3024] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 1886
+2018-09-15 20:37:09,496 [Thread-116:6776] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 1887
+2018-09-15 20:37:11,542 [Thread-117:1100] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 1887
+2018-09-15 20:37:14,628 [Thread-118:2524] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 1888
+2018-09-15 20:37:15,391 [Thread-119:8600] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 1888
+2018-09-15 20:37:15,682 [Thread-120:2588] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 1888
+2018-09-15 20:37:15,956 [Thread-121:6352] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 1888
+2018-09-15 20:37:16,242 [Thread-122:4496] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 1888
+2018-09-15 20:37:16,406 [Thread-123:8444] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 1888
+2018-09-15 20:37:16,714 [Thread-124:2356] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 1888
+2018-09-15 20:37:16,881 [Thread-125:8472] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 1888
+2018-09-15 20:37:18,114 [Thread-126:7520] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 1888
+2018-09-15 20:37:34,630 [Thread-128:8608] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 1882
+2018-09-15 20:37:39,072 [Thread-129:8332] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 302 0
+2018-09-15 20:37:39,090 [Thread-130:9180] [django.server:124] [basehttp:log_message] [INFO]- "GET /accounts/login/?next=/event_manage/ HTTP/1.1" 200 1882
+2018-09-15 20:37:40,201 [Thread-131:6324] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/ HTTP/1.1" 302 0
+2018-09-15 20:37:40,216 [Thread-132:9104] [django.server:124] [basehttp:log_message] [INFO]- "GET /accounts/login/?next=/guest_manage/ HTTP/1.1" 200 1882
+2018-09-15 20:37:45,814 [Thread-133:9080] [django.server:124] [basehttp:log_message] [INFO]- "GET /accounts/login/?next=/event_manage/ HTTP/1.1" 200 1885
+2018-09-15 20:37:54,384 [Thread-135:8264] [django.server:124] [basehttp:log_message] [INFO]- "GET /accounts/login/?next=/event_manage/ HTTP/1.1" 200 1882
+2018-09-15 20:37:59,867 [Thread-136:4216] [django.server:124] [basehttp:log_message] [INFO]- "GET /accounts/login/?next=/event_manage/ HTTP/1.1" 200 1882
+2018-09-15 20:38:35,678 [Thread-138:8256] [django.server:124] [basehttp:log_message] [INFO]- "POST /login_action/ HTTP/1.1" 200 1909
+2018-09-15 20:38:45,890 [Thread-139:9008] [django.server:124] [basehttp:log_message] [INFO]- "POST /login_action/ HTTP/1.1" 302 0
+2018-09-15 20:38:46,241 [Thread-141:7532] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 6051
+2018-09-15 20:38:49,215 [Thread-142:9084] [django.server:124] [basehttp:log_message] [INFO]- "GET /logout/ HTTP/1.1" 302 0
+2018-09-15 20:38:49,471 [Thread-143:2096] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 1882
+2018-09-15 20:39:41,580 [Thread-144:8504] [django.server:124] [basehttp:log_message] [INFO]- "POST /login_action/ HTTP/1.1" 200 1929
+2018-09-15 20:39:43,697 [Thread-145:5504] [django.server:124] [basehttp:log_message] [INFO]- "POST /login_action/ HTTP/1.1" 302 0
+2018-09-15 20:39:43,721 [Thread-146:8324] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 6051
+2018-09-15 20:39:46,180 [Thread-147:5636] [django.server:124] [basehttp:log_message] [INFO]- "GET /logout/ HTTP/1.1" 302 0
+2018-09-15 20:39:46,186 [Thread-148:6836] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 1902
+2018-09-15 20:39:48,017 [Thread-149:8356] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 1902
+2018-09-15 20:39:50,374 [Thread-150:7988] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 1902
+2018-09-15 20:39:52,288 [Thread-151:7100] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 1902
+2018-09-15 20:40:05,719 [Thread-153:7016] [django.server:124] [basehttp:log_message] [INFO]- "POST /login_action/ HTTP/1.1" 200 1948
+2018-09-15 20:40:11,369 [Thread-154:8672] [django.server:124] [basehttp:log_message] [INFO]- "POST /login_action/ HTTP/1.1" 302 0
+2018-09-15 20:40:11,397 [Thread-155:3452] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 6051
+2018-09-15 20:40:13,409 [Thread-156:1576] [django.server:124] [basehttp:log_message] [INFO]- "GET /logout/ HTTP/1.1" 302 0
+2018-09-15 20:40:13,415 [Thread-157:7948] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 1921
+2018-09-15 20:40:16,976 [Thread-158:2852] [django.server:124] [basehttp:log_message] [INFO]- "POST /login_action/ HTTP/1.1" 200 1948
+2018-09-15 20:40:38,413 [Thread-160:6536] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /login_action/
+Traceback (most recent call last):
+  File "D:\python3.6.5\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "D:\python3.6.5\lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view sign.views.login_action didn't return an HttpResponse object. It returned None instead.
+2018-09-15 20:40:38,461 [Thread-160:6536] [django.server:124] [basehttp:log_message] [ERROR]- "GET /login_action/ HTTP/1.1" 500 61072
+2018-09-15 20:40:41,785 [Thread-161:4416] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 1899
+2018-09-15 20:40:45,017 [Thread-162:3052] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 1899
+2018-09-15 20:40:53,116 [Thread-163:2348] [django.server:124] [basehttp:log_message] [INFO]- "POST /login_action/ HTTP/1.1" 302 0
+2018-09-15 20:40:53,230 [Thread-164:1664] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 6051
+2018-09-15 20:40:55,233 [Thread-165:8900] [django.server:124] [basehttp:log_message] [INFO]- "GET /logout/ HTTP/1.1" 302 0
+2018-09-15 20:40:55,243 [Thread-166:8372] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 1899
+2018-09-15 20:40:57,298 [Thread-167:8888] [django.server:124] [basehttp:log_message] [INFO]- "POST /login_action/ HTTP/1.1" 200 1926
+2018-09-15 20:42:21,508 [Thread-1:1252] [django.server:124] [basehttp:log_message] [INFO]- "GET /login_action/ HTTP/1.1" 200 1899
+2018-09-15 20:42:26,409 [Thread-3:2900] [django.server:124] [basehttp:log_message] [INFO]- "POST /login_action/ HTTP/1.1" 302 0
+2018-09-15 20:42:26,608 [Thread-4:5380] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 6051
+2018-09-15 20:42:28,207 [Thread-5:8524] [django.server:124] [basehttp:log_message] [INFO]- "GET /logout/ HTTP/1.1" 302 0
+2018-09-15 20:42:28,221 [Thread-6:7316] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 1899
+2018-09-15 20:42:30,791 [Thread-7:8972] [django.server:124] [basehttp:log_message] [INFO]- "POST /login_action/ HTTP/1.1" 200 1926
+2018-09-15 20:42:32,838 [Thread-8:6672] [django.server:124] [basehttp:log_message] [INFO]- "GET /login_action/ HTTP/1.1" 200 1899
+2018-09-15 20:42:34,715 [Thread-9:8016] [django.server:124] [basehttp:log_message] [INFO]- "POST /login_action/ HTTP/1.1" 200 1926
+2018-09-15 20:43:16,147 [Thread-1:4384] [django.server:124] [basehttp:log_message] [INFO]- "GET /login_action/ HTTP/1.1" 200 1899
+2018-09-15 20:43:17,395 [Thread-3:6324] [django.server:124] [basehttp:log_message] [INFO]- "POST /login_action/ HTTP/1.1" 302 0
+2018-09-15 20:43:17,614 [Thread-4:9104] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 6051
+2018-09-15 20:43:22,507 [Thread-5:9080] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_name/?name= HTTP/1.1" 200 6051
+2018-09-15 20:43:24,281 [Thread-6:4968] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_name/?name= HTTP/1.1" 200 6051
+2018-09-15 20:43:26,109 [Thread-7:8880] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/ HTTP/1.1" 200 4441
+2018-09-15 20:43:26,908 [Thread-8:5816] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_guest/?name= HTTP/1.1" 200 4441
+2018-09-15 20:43:28,455 [Thread-9:8264] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_guest/?name= HTTP/1.1" 200 4441
+2018-09-15 20:43:30,563 [Thread-10:8532] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 6051
+2018-09-15 20:43:31,763 [Thread-11:7772] [django.server:124] [basehttp:log_message] [INFO]- "GET /sign_index/1/ HTTP/1.1" 200 2091
+2018-09-15 20:43:33,611 [Thread-12:7776] [django.server:124] [basehttp:log_message] [INFO]- "GET /sign_index/1/ HTTP/1.1" 200 2091
+2018-09-15 20:44:01,193 [Thread-14:4840] [django.request:152] [base:get_response] [WARNING]- Not Found: /sign_index/100/
+2018-09-15 20:44:01,194 [Thread-14:4840] [django.server:124] [basehttp:log_message] [WARNING]- "GET /sign_index/100/ HTTP/1.1" 404 1730
+2018-09-15 20:44:07,469 [Thread-15:7188] [django.server:124] [basehttp:log_message] [INFO]- "GET /sign_index/1/ HTTP/1.1" 200 2091
+2018-09-15 20:44:42,795 [Thread-17:8432] [django.server:124] [basehttp:log_message] [INFO]- "GET /sign_index/1 HTTP/1.1" 301 0
+2018-09-15 20:44:42,820 [Thread-18:7532] [django.server:124] [basehttp:log_message] [INFO]- "GET /sign_index/1/ HTTP/1.1" 200 2102
+2018-09-15 20:44:45,841 [Thread-19:9084] [django.request:152] [base:get_response] [WARNING]- Not Found: /sign_index/
+2018-09-15 20:44:45,844 [Thread-19:9084] [django.server:124] [basehttp:log_message] [WARNING]- "GET /sign_index/ HTTP/1.1" 404 4128
+2018-09-15 20:44:59,418 [Thread-21:8284] [django.request:152] [base:get_response] [WARNING]- Not Found: /sign_index/
+2018-09-15 20:44:59,420 [Thread-21:8284] [django.server:124] [basehttp:log_message] [WARNING]- "GET /sign_index/ HTTP/1.1" 404 4128
+2018-09-15 20:45:02,415 [Thread-22:3952] [django.server:124] [basehttp:log_message] [INFO]- "GET /sign_index/1/ HTTP/1.1" 200 2091
+2018-09-15 20:45:04,890 [Thread-23:8396] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/ HTTP/1.1" 200 4441
+2018-09-15 20:45:05,735 [Thread-24:9148] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 6051
+2018-09-15 20:45:06,643 [Thread-25:6336] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 6051
+2018-09-15 20:45:07,825 [Thread-26:8868] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/ HTTP/1.1" 200 4441
+2018-09-15 20:45:08,822 [Thread-27:8596] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 6051
+2018-09-15 20:45:09,968 [Thread-28:6196] [django.server:124] [basehttp:log_message] [INFO]- "GET /sign_index/1/ HTTP/1.1" 200 2091
+2018-09-15 20:45:12,331 [Thread-29:8556] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 6051
+2018-09-15 20:45:38,885 [Thread-1:7016] [django.server:124] [basehttp:log_message] [INFO]- "GET /logout/ HTTP/1.1" 302 0
+2018-09-15 20:45:38,903 [Thread-3:6300] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 1899
+2018-09-15 20:46:10,400 [Thread-5:9028] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 1800
+2018-09-15 20:46:54,166 [Thread-8:4316] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 1800
+2018-09-15 20:46:55,047 [Thread-9:2356] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 1800
+2018-09-15 20:46:55,665 [Thread-10:8444] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 1800
+2018-09-15 20:46:56,106 [Thread-11:5524] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 1800
+2018-09-15 20:46:56,516 [Thread-12:508] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 1800
+2018-09-15 20:46:56,808 [Thread-13:5780] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 1800
+2018-09-15 20:46:59,142 [Thread-14:6776] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 1800
+2018-09-15 20:47:19,824 [Thread-16:8052] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 1800
+2018-09-15 20:47:22,182 [Thread-17:5328] [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2018-09-15 20:47:22,192 [Thread-18:8988] [django.server:124] [basehttp:log_message] [INFO]- "GET /static/favicon.ico HTTP/1.1" 200 9662
+2018-09-15 20:48:17,549 [Thread-19:1424] [django.server:124] [basehttp:log_message] [INFO]- "POST /login_action/ HTTP/1.1" 302 0
+2018-09-15 20:48:17,783 [Thread-20:4588] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 6051
+2018-09-15 20:48:19,561 [Thread-21:7652] [django.server:124] [basehttp:log_message] [INFO]- "GET /sign_index/1/ HTTP/1.1" 200 2091
+2018-09-15 20:48:21,406 [Thread-22:8236] [django.server:124] [basehttp:log_message] [INFO]- "POST /sign_index_action/1/ HTTP/1.1" 200 2115
+2018-09-15 20:56:01,028 [Thread-24:3808] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 6051
+2018-09-15 21:15:07,716 [Thread-1:7580] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 6051
+2018-09-15 21:15:10,267 [Thread-3:3132] [django.server:124] [basehttp:log_message] [INFO]- "GET /logout/ HTTP/1.1" 302 0
+2018-09-15 21:15:10,274 [Thread-4:7964] [django.server:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 1806
+2018-09-15 21:15:13,124 [Thread-5:8156] [django.server:124] [basehttp:log_message] [INFO]- "POST /login_action/ HTTP/1.1" 200 1833
+2018-09-15 21:15:14,965 [Thread-6:2176] [django.server:124] [basehttp:log_message] [INFO]- "POST /login_action/ HTTP/1.1" 302 0
+2018-09-15 21:15:15,008 [Thread-7:7468] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 6051
+2018-09-15 21:15:19,986 [Thread-8:5468] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_name/?name=15 HTTP/1.1" 200 2655
+2018-09-15 21:15:22,658 [Thread-9:8216] [django.server:124] [basehttp:log_message] [INFO]- "GET /search_name/?name=%E5%B0%8F HTTP/1.1" 200 3938
+2018-09-15 21:15:26,443 [Thread-10:5636] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/ HTTP/1.1" 200 4441
+2018-09-15 21:15:30,281 [Thread-11:5504] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 6051
+2018-09-15 21:15:31,164 [Thread-12:8888] [django.server:124] [basehttp:log_message] [INFO]- "GET /sign_index/1/ HTTP/1.1" 200 2091
+2018-09-15 21:15:33,113 [Thread-13:7988] [django.server:124] [basehttp:log_message] [INFO]- "POST /sign_index_action/1/ HTTP/1.1" 200 2103
+2018-09-15 21:15:34,802 [Thread-14:8176] [django.server:124] [basehttp:log_message] [INFO]- "POST /sign_index_action/1/ HTTP/1.1" 200 2115
+2018-09-15 21:15:35,269 [Thread-15:8716] [django.server:124] [basehttp:log_message] [INFO]- "POST /sign_index_action/1/ HTTP/1.1" 200 2103
+2018-09-15 21:15:35,799 [Thread-16:8100] [django.server:124] [basehttp:log_message] [INFO]- "POST /sign_index_action/1/ HTTP/1.1" 200 2103
+2018-09-15 21:15:36,096 [Thread-17:8776] [django.server:124] [basehttp:log_message] [INFO]- "POST /sign_index_action/1/ HTTP/1.1" 200 2103
+2018-09-15 21:15:43,581 [Thread-18:1932] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/?page=1 HTTP/1.1" 200 6051
+2018-09-15 21:15:43,935 [Thread-19:7012] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/?page=1 HTTP/1.1" 200 6051
+2018-09-15 21:15:44,371 [Thread-20:6096] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/?page=1 HTTP/1.1" 200 6051
+2018-09-15 21:15:44,780 [Thread-21:4216] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/?page=1 HTTP/1.1" 200 6051
+2018-09-15 21:19:36,684 [Thread-1:5504] [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_event HTTP/1.1" 301 0
+2018-09-15 21:19:36,703 [Thread-3:8888] [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_event/ HTTP/1.1" 200 10
+2018-09-15 21:19:49,317 [Thread-1:8948] [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_event/ HTTP/1.1" 200 10
+2018-09-15 21:19:49,411 [Thread-3:7196] [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2018-09-15 21:19:49,419 [Thread-4:8256] [django.server:124] [basehttp:log_message] [INFO]- "GET /static/favicon.ico HTTP/1.1" 200 9662
+2018-09-15 21:19:57,761 [Thread-1:8696] [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_event/ HTTP/1.1" 200 10
+2018-09-15 21:19:57,832 [Thread-3:6116] [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2018-09-15 21:19:58,009 [Thread-4:3452] [django.server:124] [basehttp:log_message] [INFO]- "GET /static/favicon.ico HTTP/1.1" 200 9662
+2018-09-15 21:20:04,655 [Thread-1:7020] [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_event/ HTTP/1.1" 200 10
+2018-09-15 21:20:04,728 [Thread-3:8284] [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2018-09-15 21:20:04,906 [Thread-4:6468] [django.server:124] [basehttp:log_message] [INFO]- "GET /static/favicon.ico HTTP/1.1" 200 9662
+2018-09-15 21:20:16,807 [Thread-5:6164] [django.request:152] [base:get_response] [WARNING]- Not Found: /
+2018-09-15 21:20:16,809 [Thread-5:6164] [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 3612
+2018-09-15 21:20:26,477 [Thread-6:4948] [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_event HTTP/1.1" 301 0
+2018-09-15 21:20:26,494 [Thread-7:5672] [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_event/ HTTP/1.1" 200 10
+2018-09-15 21:20:48,678 [Thread-1:7092] [django.server:124] [basehttp:log_message] [INFO]- "GET /index HTTP/1.1" 301 0
+2018-09-15 21:20:48,713 [Thread-3:7196] [django.server:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 1806
+2018-09-15 21:20:54,080 [Thread-4:7044] [django.server:124] [basehttp:log_message] [INFO]- "POST /login_action/ HTTP/1.1" 302 0
+2018-09-15 21:20:54,405 [Thread-5:7340] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 6051
+2018-09-15 21:20:56,257 [Thread-6:7788] [django.server:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 1806
+2018-09-15 21:20:57,643 [Thread-7:8832] [django.server:124] [basehttp:log_message] [INFO]- "POST /login_action/ HTTP/1.1" 302 0
+2018-09-15 21:20:57,665 [Thread-8:8588] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 6051
+2018-09-15 21:20:59,325 [Thread-9:8740] [django.server:124] [basehttp:log_message] [INFO]- "GET /logout/ HTTP/1.1" 302 0
+2018-09-15 21:20:59,331 [Thread-10:8640] [django.server:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 1806
+2018-09-15 21:21:01,502 [Thread-11:7548] [django.server:124] [basehttp:log_message] [INFO]- "POST /login_action/ HTTP/1.1" 302 0
+2018-09-15 21:21:01,650 [Thread-12:3932] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 6051
+2018-09-15 21:55:48,361 [Thread-1:6936] [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_event/ HTTP/1.1" 200 48
+2018-09-15 22:22:16,353 [Thread-8:8880] [django.security.csrf:160] [csrf:_reject] [WARNING]- Forbidden (CSRF cookie not set.): /api/add_event/
+2018-09-15 22:22:16,362 [Thread-8:8880] [django.server:124] [basehttp:log_message] [WARNING]- "POST /api/add_event/ HTTP/1.1" 403 2829
+2018-09-15 22:22:50,191 [Thread-9:9076] [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_event/ HTTP/1.1" 200 48
+2018-09-15 22:23:07,615 [Thread-10:7988] [django.security.csrf:160] [csrf:_reject] [WARNING]- Forbidden (CSRF cookie not set.): /api/add_event/
+2018-09-15 22:23:07,623 [Thread-10:7988] [django.server:124] [basehttp:log_message] [WARNING]- "POST /api/add_event/ HTTP/1.1" 403 2829
+2018-09-15 22:24:26,358 [Thread-11:8516] [django.security.csrf:160] [csrf:_reject] [WARNING]- Forbidden (CSRF cookie not set.): /api/add_event/
+2018-09-15 22:24:26,360 [Thread-11:8516] [django.server:124] [basehttp:log_message] [WARNING]- "POST /api/add_event/ HTTP/1.1" 403 2829
+2018-09-15 22:24:33,437 [Thread-12:3468] [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_event/ HTTP/1.1" 200 48
+2018-09-15 22:25:50,971 [Thread-13:5488] [django.security.csrf:160] [csrf:_reject] [WARNING]- Forbidden (CSRF cookie not set.): /api/add_event/
+2018-09-15 22:25:50,975 [Thread-13:5488] [django.server:124] [basehttp:log_message] [WARNING]- "POST /api/add_event/ HTTP/1.1" 403 2829
+2018-09-15 22:27:45,243 [Thread-14:7964] [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_event/ HTTP/1.1" 200 48
+2018-09-15 22:27:48,470 [Thread-15:8200] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/ HTTP/1.1" 302 0
+2018-09-15 22:27:48,481 [Thread-16:6012] [django.server:124] [basehttp:log_message] [INFO]- "GET /accounts/login/?next=/guest_manage/ HTTP/1.1" 200 1806
+2018-09-15 22:27:51,538 [Thread-17:2900] [django.server:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 1806
+2018-09-15 22:27:53,101 [Thread-18:7252] [django.server:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 1806
+2018-09-15 22:27:54,821 [Thread-19:4756] [django.server:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 1806
+2018-09-15 22:27:59,096 [Thread-20:5752] [django.server:124] [basehttp:log_message] [INFO]- "POST /login_action/ HTTP/1.1" 302 0
+2018-09-15 22:27:59,326 [Thread-21:7976] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 6051
+2018-09-15 22:28:00,216 [Thread-22:1304] [django.server:124] [basehttp:log_message] [INFO]- "GET /guest_manage/ HTTP/1.1" 200 4441
+2018-09-15 22:28:01,460 [Thread-23:1576] [django.server:124] [basehttp:log_message] [INFO]- "GET /event_manage/ HTTP/1.1" 200 6051
+2018-09-15 22:28:17,458 [Thread-26:4400] [django.security.csrf:160] [csrf:_reject] [WARNING]- Forbidden (CSRF cookie not set.): /api/add_event/
+2018-09-15 22:28:17,462 [Thread-26:4400] [django.server:124] [basehttp:log_message] [WARNING]- "POST /api/add_event/ HTTP/1.1" 403 2829
+2018-09-15 22:29:04,790 [Thread-3:8368] [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_event/ HTTP/1.1" 200 48
+2018-09-15 22:35:31,514 [Thread-5:6000] [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_event/ HTTP/1.1" 200 56
+2018-09-15 23:31:14,003 [Thread-1:8224] [django.server:124] [basehttp:log_message] [INFO]- "GET /api/get_event_list/ HTTP/1.1" 200 48
+2018-09-15 23:31:16,905 [Thread-3:8600] [django.server:124] [basehttp:log_message] [INFO]- "GET /api/get_event_list/ HTTP/1.1" 200 48
+2018-09-15 23:31:16,975 [Thread-4:4980] [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2018-09-15 23:31:17,315 [Thread-5:6352] [django.server:124] [basehttp:log_message] [INFO]- "GET /static/favicon.ico HTTP/1.1" 200 9662
+2018-09-15 23:31:55,578 [Thread-8:8216] [django.server:124] [basehttp:log_message] [INFO]- "GET /api/get_event_list/?name=%E5%B0%8F%E7%B1%B3 HTTP/1.1" 200 547
+2018-09-15 23:34:14,898 [Thread-9:6600] [django.server:124] [basehttp:log_message] [INFO]- "GET /api/get_event_list/?name=%E5%B0%8F%E7%B1%B3 HTTP/1.1" 200 547
+2018-09-15 23:36:25,527 [Thread-10:8092] [django.server:124] [basehttp:log_message] [INFO]- "GET /api/get_event_list/?name=%E5%B0%8F%E7%B1%B3 HTTP/1.1" 200 547
+2018-09-15 23:37:25,663 [Thread-11:7344] [django.server:124] [basehttp:log_message] [INFO]- "GET /api/get_event_list/?name=%E5%B0%8F%E7%B1%B3 HTTP/1.1" 200 547
+2018-09-15 23:42:51,973 [Thread-12:9172] [django.server:124] [basehttp:log_message] [INFO]- "GET /api/get_event_list/?name=%E5%B0%8F%E7%B1%B3 HTTP/1.1" 200 547
+2018-09-15 23:43:04,136 [Thread-13:1168] [django.server:124] [basehttp:log_message] [INFO]- "GET /api/get_event_list/?name=%E5%B0%8F%E7%B1%B3 HTTP/1.1" 200 547
+2018-09-15 23:45:33,240 [Thread-18:6992] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/get_event_list/
+Traceback (most recent call last):
+  File "D:\python3.6.5\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "D:\python3.6.5\lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view sign.views_api.get_event_list didn't return an HttpResponse object. It returned None instead.
+2018-09-15 23:45:33,472 [Thread-18:6992] [django.server:124] [basehttp:log_message] [ERROR]- "GET /api/get_event_list/?name=%E5%B0%8F%E7%B1%B3w HTTP/1.1" 500 61208
+2018-09-15 23:47:07,089 [Thread-3:2348] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/get_event_list/
+Traceback (most recent call last):
+  File "D:\python3.6.5\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "D:\python3.6.5\lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view sign.views_api.get_event_list didn't return an HttpResponse object. It returned None instead.
+2018-09-15 23:47:07,322 [Thread-3:2348] [django.server:124] [basehttp:log_message] [ERROR]- "GET /api/get_event_list/?name=%E5%B0%8F%E7%B1%B3w HTTP/1.1" 500 58355
+2018-09-15 23:47:45,397 [Thread-4:4304] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/get_event_list/
+Traceback (most recent call last):
+  File "D:\python3.6.5\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "D:\python3.6.5\lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view sign.views_api.get_event_list didn't return an HttpResponse object. It returned None instead.
+2018-09-15 23:47:45,447 [Thread-4:4304] [django.server:124] [basehttp:log_message] [ERROR]- "GET /api/get_event_list/?name=%E5%B0%8F%E7%B1%B3w HTTP/1.1" 500 61343
+2018-09-15 23:48:07,523 [Thread-1:1356] [django.server:124] [basehttp:log_message] [INFO]- "GET /api/get_event_list/?name=%E5%B0%8F%E7%B1%B3w HTTP/1.1" 200 54
+2018-09-15 23:48:07,751 [Thread-3:5180] [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2018-09-15 23:48:07,801 [Thread-4:8388] [django.server:124] [basehttp:log_message] [INFO]- "GET /static/favicon.ico HTTP/1.1" 200 9662
+2018-09-15 23:48:33,619 [Thread-6:5144] [django.server:124] [basehttp:log_message] [INFO]- "GET /api/get_event_list/?name=%E5%B0%8F%E7%B1%B3 HTTP/1.1" 200 547
+2018-09-15 23:49:38,333 [Thread-9:6120] [django.server:124] [basehttp:log_message] [INFO]- "GET /api/get_event_list/?name=%E5%B0%8F%E7%B1%B3 HTTP/1.1" 200 547
+2018-09-15 23:49:38,455 [Thread-10:864] [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2018-09-15 23:49:38,568 [Thread-11:7692] [django.server:124] [basehttp:log_message] [INFO]- "GET /static/favicon.ico HTTP/1.1" 200 9662
+2018-09-15 23:49:42,771 [Thread-12:496] [django.server:124] [basehttp:log_message] [INFO]- "GET /api/get_event_list/?name=%E5%B0%8F%E7%B1%B3w HTTP/1.1" 200 54
+2018-09-15 23:54:55,072 [Thread-15:5876] [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_event/ HTTP/1.1" 200 48
+2018-09-16 00:00:16,965 [Thread-20:9020] [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_event/ HTTP/1.1" 200 48
+2018-09-16 00:00:28,481 [Thread-21:9032] [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_event/ HTTP/1.1" 200 56
