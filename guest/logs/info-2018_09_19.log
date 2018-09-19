@@ -1,0 +1,14 @@
+[2018-09-19 10:13:57,338] [views_api_sec.py:156] [views_api_sec:user_sign_api] [INFO]- b0717ca920c95862157220f7e9f3f6de
+[2018-09-19 10:13:57,526] [views_api_sec.py:53] [views_api_sec:add_event_encode] [INFO]- 发布会添加成功！
+[2018-09-19 10:13:58,557] [views_api_sec.py:110] [views_api_sec:user_auth] [INFO]- Basic bGl4aWFvZmVuZzpmZW5nemk4MDIzMDA=
+[2018-09-19 10:13:58,557] [views_api_sec.py:112] [views_api_sec:user_auth] [INFO]- ['Basic', 'bGl4aWFvZmVuZzpmZW5nemk4MDIzMDA=']
+[2018-09-19 10:13:58,557] [views_api_sec.py:116] [views_api_sec:user_auth] [INFO]- ('lixiaofeng', ':', 'fengzi802300')
+[2018-09-19 10:13:58,588] [views_api_sec.py:121] [views_api_sec:user_auth] [INFO]- lixiaofeng
+[2018-09-19 10:13:58,604] [views_api_sec.py:84] [views_api_sec:get_event_list_encode] [INFO]- 查询嘉宾成功！
+[2018-09-19 10:14:22,684] [views_api_sec.py:156] [views_api_sec:user_sign_api] [INFO]- d13c41ea2b574ffc24d54abc8df9878c
+[2018-09-19 10:14:22,684] [views_api_sec.py:39] [views_api_sec:add_event_encode] [INFO]- 发布会id已经存在.
+[2018-09-19 10:14:23,715] [views_api_sec.py:110] [views_api_sec:user_auth] [INFO]- Basic bGl4aWFvZmVuZzpmZW5nemk4MDIzMDA=
+[2018-09-19 10:14:23,715] [views_api_sec.py:112] [views_api_sec:user_auth] [INFO]- ['Basic', 'bGl4aWFvZmVuZzpmZW5nemk4MDIzMDA=']
+[2018-09-19 10:14:23,715] [views_api_sec.py:116] [views_api_sec:user_auth] [INFO]- ('lixiaofeng', ':', 'fengzi802300')
+[2018-09-19 10:14:23,746] [views_api_sec.py:121] [views_api_sec:user_auth] [INFO]- lixiaofeng
+[2018-09-19 10:14:23,762] [views_api_sec.py:84] [views_api_sec:get_event_list_encode] [INFO]- 查询嘉宾成功！

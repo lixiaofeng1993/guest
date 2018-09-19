@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>动态增加表格</title>
+</head>
+<script type="text/javascript">
+    function del(obj) {
+        if (document.getElementById('tbodyid').children.length > 1) {
+            var trid = obj.parentNode.parentNode.id;
+            var objtr = document.getElementById(trid);
+            document.getElementById('tbodyid').removeChild(objtr);
+            var tbody = document.getElementById('tbodyid');
+            var countchildren = tbody.childElementCount;
+            for (var i = 0; i < countchildren; i++) {
+                tbody.children[i].children[0].innerHTML = i + 1;
+            }
+        }
+        else {
+            alert("请不要全部删除");
+        }
+    }
+    function add() {
+        var trid = new Date().getTime();
+        var packageid = trid + 'packageid';
+        var priceid = trid + 'priceid';
+        var objtr = document.createElement('tr');
+        objtr.id = trid;
+        objtr.innerHTML = "<td></td> " +
+            "      <td><input id='" + trid + "packageid'></td> " +
+            "      <td><input id='" + trid + "priceid'></td> " +
+            "      <td><button type='button' onclick='del(this)'>删除</button></td>";
+        document.getElementById("tbodyid").appendChild(objtr);
+        var tbodyobj = document.getElementById('tbodyid');
+        var countchildren = tbodyobj.childElementCount;
+        for (var i = 0; i < countchildren; i++) {
+            tbodyobj.children[i].children[0].innerHTML = i + 1;
+        }
+    }
+</script>
+<body>
+<div>
+    <div style="width: 80%;margin: 10%">
+        <table border="1" bordercolor="#a0c6e5" style="border-collapse:collapse;" align="center" width="100%">
+            <caption>动态增加表格</caption>
+            <tbody id="tbodyid">
+            <tr id="123">
+                <td>1</td>
+                <td><input id="123packageid"></td>
+                <td><input id="123priceid"></td>
+                <td>
+                    <button type="button" onclick='del(this)'>删除</button>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+        <button type="button" onclick='add()'>添加</button>
+    </div>
+</div>
+</body>
+</html>

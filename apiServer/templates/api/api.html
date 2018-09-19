@@ -1,0 +1,80 @@
+{% extends 'basc.html' %}
+{% load static from staticfiles %}
+
+{% block title %}api{% endblock title %}
+
+{% block linkscript %}
+    <link rel="stylesheet" type="text/css" href="{% static 'api/api.css' %}"/>
+    <script type="text/javascript" src="{% static 'api/api.js' %}"></script>
+{% endblock linkscript %}
+
+{% block main %}
+    <div class="main">
+        <div class="big-box">
+            {% if error %}
+                <div class="alert alert-danger alert-dismissible" role="alert">
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <span class="errors" id="errors"> {{ error }} </span>
+                </div>
+            {% endif %}
+            <div class="checkbox">
+                <form class="add-another" method="post" action="/" enctype=multipart/form-data>
+                    <div class="form-group">
+                        url<input id="url" type="text" class="input-group" name="url" required="required"/>
+                        <span class="error-url" id="error-url">url不能为空</span>
+                    </div>
+                    <div class="form-group">
+
+                        {#                        method:<input id="method" type="text" class="input-group" name="method" required="required"/>#}
+                        {#                        <span class="error-url" id="error-method">method不能为空</span>#}
+                        method
+                        <select name="method">
+                            <option>get</option>
+                            <option>post</option>
+                            <option>delete</option>
+                            <option>put</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        {% if header %}
+                            header
+                            <input type="text" id="header" class="input-group" name="header" value="{{ header }}"/>
+                        {% else %}
+                            header:<input type="text" id="header" class="input-group" name="header"/>
+                        {% endif %}
+                    </div>
+                    <div class="form-group">
+                        params<input id="params" type="text" class="input-group" name="params"/>
+                    </div>
+                    <div class="form-group">
+                        body<input type="text" id=" body" class="input-group" name="body"/>
+                    </div>
+                    <div class="form-group">
+                        <button class="btn-success" id="btn">提交</button>
+                    </div>
+                </form>
+            </div>
+            <div id="success" class="re">
+                <p id="request_url" class="alert-success">Request Url</p>
+                {% if request_url %}
+                    <p class="actionlist">{{ request_url }}</p>
+                {% endif %}
+                <p id="response_body" class="alert-success">Response Body</p>
+                {% if response_body %}
+                    <p class="actionlist">{{ response_body }}</p>
+                {% endif %}
+                <p id="response_code" class="alert-success">Response Code</p>
+                {% if response_code %}
+                    <p>{{ response_code }}</p>
+                {% endif %}
+                <p id="response_headers" class="alert-success">Response Headers</p>
+                {% if response_headers %}
+                    <p>{{ response_headers }}</p>
+                {% endif %}
+
+            </div>
+        </div>
+    </div>
+{% endblock main %}

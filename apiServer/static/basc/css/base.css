@@ -1,0 +1,25 @@
+
+body {
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: #fff;
+
+}
+
+header {
+    width: 100%;
+    height: 5%;
+    position: fixed;
+    display: flex;
+    z-index: 10;
+    left: 0;
+    top: 0;
+    background-color: #555;
+}
+
+h1 {
+    font-size: 30px;
+    color: #fff;
+    margin-left: 6%;
+
+}
