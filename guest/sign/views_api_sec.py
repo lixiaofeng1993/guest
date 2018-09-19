@@ -1,6 +1,9 @@
+import json
+
 from django.contrib import auth as django_auth
 import base64
 import hashlib
+from Crypto.Cipher import AES  # AES加密
 from django.http import JsonResponse, HttpResponse
 from sign.models import Event, Guest
 from django.core.exceptions import ValidationError, ObjectDoesNotExist  # 验证错误
@@ -13,7 +16,7 @@ log = logging.getLogger('log')
 
 
 # 添加发布会接口-增加签名和时间戳
-def add_event_encode(request):
+def sec_add_event(request):
     sign_result = user_sign_api(request)
     if sign_result == 'error':
         return JsonResponse({'status': 10011, 'message': 'request error'})
@@ -55,7 +58,7 @@ def add_event_encode(request):
 
 
 # 查询发布会接口--增加用户认证
-def get_event_list_encode(request):
+def sec_get_event_list(request):
     auth_result = user_auth(request)  # 认证函数
     if auth_result == 'null':
         return JsonResponse({'status': 10011, 'message': 'user auth null'})
@@ -101,6 +104,69 @@ def get_event_list_encode(request):
         else:
             log.info('查询结果为空.')
             return JsonResponse({'status': 10022, 'message': 'query result is empty'})
+
+
+# 嘉宾查询接口-AES算法
+def sec_get_guest_list(request):
+    dict_data = aes_encryption(request)
+
+    if dict_data == 'error':
+        return JsonResponse({'status': 10011, 'message': 'request error'})
+
+    # 取出对应的发布会id和嘉宾手机号
+    name = dict_data['name']
+
+    if name == '':
+        datas = []
+        results = Guest.objects.all()
+        if results:
+            for r in results:
+                guest = {}
+                event = Event.objects.get(id=r.event_id)
+                guest['realname'] = r.realname
+                guest['phone'] = r.phone
+                guest['email'] = r.email
+                guest['sign'] = r.sign
+                guest['event_name'] = event.name
+                datas.append(guest)
+            log.info('查询嘉宾成功！')
+            return JsonResponse({'status': 200, 'message': 'success', 'data': datas})
+    else:
+        results = Guest.objects.filter(Q(phone__contains=name) | Q(realname__contains=name))  # guest 表中查询
+        if results:
+            datas = []
+            for r in results:
+                guest = {}
+                event = Event.objects.get(id=r.event_id)
+                guest['realname'] = r.realname
+                guest['phone'] = r.phone
+                guest['email'] = r.email
+                guest['sign'] = r.sign
+                guest['event_name'] = event.name
+                datas.append(guest)
+            log.info('查询嘉宾成功！')
+            return JsonResponse({'status': 200, 'message': 'success', 'data': datas})
+        else:
+            id_results = Event.objects.filter(name__contains=name)  # event 表联查
+            if id_results:
+                datas = []
+                for event_id in id_results:
+                    results = Guest.objects.filter(event_id=event_id)
+                    for r in results:
+                        if r:
+                            guest = {}
+                            event = Event.objects.get(id=r.event_id)
+                            guest['realname'] = r.realname
+                            guest['phone'] = r.phone
+                            guest['email'] = r.email
+                            guest['sign'] = r.sign
+                            guest['event_name'] = event.name
+                            datas.append(guest)
+                log.info('查询嘉宾成功！')
+                return JsonResponse({'status': 200, 'message': 'success', 'data': datas})
+            else:
+                log.info('查询结果为空.')
+                return JsonResponse({'status': 10022, 'message': 'query result is empty'})
 
 
 # 用户认证-提取出用户数据，并判断其正确性
@@ -159,3 +225,38 @@ def user_sign_api(request):
         return 'fail'
     else:
         return 'sign success'
+
+
+# AES加密
+# ======== AES加密算法 ========
+
+BS = 16
+unpad = lambda s: s[0: - ord(s[-1])]  # 通过lambda匿名函数对字符串长度进行还原
+
+
+def decryptBase64(src):
+    return base64.urlsafe_b64decode(src)  # urlsafe_b64decode() 对Base64加密字符串进行解密
+
+
+def decryptAES(src, key):
+    """解析AES密文"""
+    src = decryptBase64(src)  # 将Base64() 加密字符串解密为AES加密字符串
+    iv = b'1172311105789011'
+    cryptor = AES.new(key, AES.MODE_CBC, iv)
+    text = cryptor.decrypt(src).decode()  # decrypt() 对AES加密字符串进行解密
+    return unpad(text)
+
+
+def aes_encryption(request):
+    app_key = 'W7v4D60fds2Cmk2U'
+
+    if request.method == 'POST':
+        data = request.POST.get('data', '')
+    else:
+        return 'error'
+
+    # 解密
+    decode = decryptAES(data, app_key)  # 调用decryptAES()函数解密
+    # 转化为字典
+    dict_data = json.loads(decode)
+    return dict_data
