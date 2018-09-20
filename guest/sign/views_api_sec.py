@@ -1,5 +1,4 @@
 import json
-
 from django.contrib import auth as django_auth
 import base64
 import hashlib
