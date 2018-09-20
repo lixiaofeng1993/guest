@@ -1,0 +1,372 @@
+[2018-09-20 12:58:55,163] [views_api_sec.py:222] [views_api_sec:user_sign_api] [INFO]- a40d08b673aad466d68bfe86f00581d5
+[2018-09-20 12:58:55,198] [views_api_sec.py:42] [views_api_sec:sec_add_event] [INFO]- 发布会id已经存在.
+[2018-09-20 12:58:55,200] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /api/sec_add_event/ HTTP/1.1" 200 55
+[2018-09-20 12:58:56,212] [views_api_sec.py:176] [views_api_sec:user_auth] [INFO]- Basic bGl4aWFvZmVuZzpmZW5nemk4MDIzMDA=
+[2018-09-20 12:58:56,216] [views_api_sec.py:178] [views_api_sec:user_auth] [INFO]- ['Basic', 'bGl4aWFvZmVuZzpmZW5nemk4MDIzMDA=']
+[2018-09-20 12:58:56,222] [views_api_sec.py:182] [views_api_sec:user_auth] [INFO]- ('lixiaofeng', ':', 'fengzi802300')
+[2018-09-20 12:58:56,313] [views_api_sec.py:187] [views_api_sec:user_auth] [INFO]- lixiaofeng
+[2018-09-20 12:58:56,333] [views_api_sec.py:87] [views_api_sec:sec_get_event_list] [INFO]- 查询嘉宾成功！
+[2018-09-20 12:58:56,338] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/sec_get_event_list/?eid=1 HTTP/1.1" 200 202
+[2018-09-20 13:01:41,435] [views_api_sec.py:222] [views_api_sec:user_sign_api] [INFO]- d7bd8df74362dbeb0fa27cf2a947820b
+[2018-09-20 13:01:41,455] [views_api_sec.py:42] [views_api_sec:sec_add_event] [INFO]- 发布会id已经存在.
+[2018-09-20 13:01:41,455] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /api/sec_add_event/ HTTP/1.1" 200 55
+[2018-09-20 13:01:42,463] [views_api_sec.py:176] [views_api_sec:user_auth] [INFO]- Basic bGl4aWFvZmVuZzpmZW5nemk4MDIzMDA=
+[2018-09-20 13:01:42,465] [views_api_sec.py:178] [views_api_sec:user_auth] [INFO]- ['Basic', 'bGl4aWFvZmVuZzpmZW5nemk4MDIzMDA=']
+[2018-09-20 13:01:42,468] [views_api_sec.py:182] [views_api_sec:user_auth] [INFO]- ('lixiaofeng', ':', 'fengzi802300')
+[2018-09-20 13:01:42,539] [views_api_sec.py:187] [views_api_sec:user_auth] [INFO]- lixiaofeng
+[2018-09-20 13:01:42,556] [views_api_sec.py:87] [views_api_sec:sec_get_event_list] [INFO]- 查询嘉宾成功！
+[2018-09-20 13:01:42,559] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/sec_get_event_list/?eid=1 HTTP/1.1" 200 202
+[2018-09-20 13:03:14,413] [views_api_sec.py:222] [views_api_sec:user_sign_api] [INFO]- 0e659fa503e07869d119d1badd990489
+[2018-09-20 13:03:14,433] [views_api_sec.py:42] [views_api_sec:sec_add_event] [INFO]- 发布会id已经存在.
+[2018-09-20 13:03:14,435] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /api/sec_add_event/ HTTP/1.1" 200 55
+[2018-09-20 13:03:15,449] [views_api_sec.py:176] [views_api_sec:user_auth] [INFO]- Basic bGl4aWFvZmVuZzpmZW5nemk4MDIzMDA=
+[2018-09-20 13:03:15,451] [views_api_sec.py:178] [views_api_sec:user_auth] [INFO]- ['Basic', 'bGl4aWFvZmVuZzpmZW5nemk4MDIzMDA=']
+[2018-09-20 13:03:15,452] [views_api_sec.py:182] [views_api_sec:user_auth] [INFO]- ('lixiaofeng', ':', 'fengzi802300')
+[2018-09-20 13:03:15,550] [views_api_sec.py:187] [views_api_sec:user_auth] [INFO]- lixiaofeng
+[2018-09-20 13:03:15,561] [views_api_sec.py:87] [views_api_sec:sec_get_event_list] [INFO]- 查询嘉宾成功！
+[2018-09-20 13:03:15,565] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/sec_get_event_list/?eid=1 HTTP/1.1" 200 202
+[2018-09-20 13:10:50,095] [views_api_sec.py:222] [views_api_sec:user_sign_api] [INFO]- 17ef6b4198eec314784bd63ef1df023b
+[2018-09-20 13:10:50,110] [views_api_sec.py:42] [views_api_sec:sec_add_event] [INFO]- 发布会id已经存在.
+[2018-09-20 13:10:50,112] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /api/sec_add_event/ HTTP/1.1" 200 55
+[2018-09-20 13:10:51,122] [views_api_sec.py:176] [views_api_sec:user_auth] [INFO]- Basic bGl4aWFvZmVuZzpmZW5nemk4MDIzMDA=
+[2018-09-20 13:10:51,123] [views_api_sec.py:178] [views_api_sec:user_auth] [INFO]- ['Basic', 'bGl4aWFvZmVuZzpmZW5nemk4MDIzMDA=']
+[2018-09-20 13:10:51,124] [views_api_sec.py:182] [views_api_sec:user_auth] [INFO]- ('lixiaofeng', ':', 'fengzi802300')
+[2018-09-20 13:10:51,184] [views_api_sec.py:187] [views_api_sec:user_auth] [INFO]- lixiaofeng
+[2018-09-20 13:10:51,204] [views_api_sec.py:87] [views_api_sec:sec_get_event_list] [INFO]- 查询嘉宾成功！
+[2018-09-20 13:10:51,208] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/sec_get_event_list/?eid=1 HTTP/1.1" 200 202
+[2018-09-20 13:15:49,360] [views_api_sec.py:222] [views_api_sec:user_sign_api] [INFO]- 5f131050bd2844a6bba567dfe93ee7ef
+[2018-09-20 13:15:49,391] [views_api_sec.py:42] [views_api_sec:sec_add_event] [INFO]- 发布会id已经存在.
+[2018-09-20 13:15:49,393] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /api/sec_add_event/ HTTP/1.1" 200 55
+[2018-09-20 13:15:50,406] [views_api_sec.py:176] [views_api_sec:user_auth] [INFO]- Basic bGl4aWFvZmVuZzpmZW5nemk4MDIzMDA=
+[2018-09-20 13:15:50,407] [views_api_sec.py:178] [views_api_sec:user_auth] [INFO]- ['Basic', 'bGl4aWFvZmVuZzpmZW5nemk4MDIzMDA=']
+[2018-09-20 13:15:50,409] [views_api_sec.py:182] [views_api_sec:user_auth] [INFO]- ('lixiaofeng', ':', 'fengzi802300')
+[2018-09-20 13:15:50,513] [views_api_sec.py:187] [views_api_sec:user_auth] [INFO]- lixiaofeng
+[2018-09-20 13:15:50,531] [views_api_sec.py:87] [views_api_sec:sec_get_event_list] [INFO]- 查询嘉宾成功！
+[2018-09-20 13:15:50,535] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/sec_get_event_list/?eid=1 HTTP/1.1" 200 202
+[2018-09-20 13:16:35,765] [views_api_sec.py:222] [views_api_sec:user_sign_api] [INFO]- 7d72a68a6dbb60e46a4c5ebc5ad55577
+[2018-09-20 13:16:35,793] [views_api_sec.py:42] [views_api_sec:sec_add_event] [INFO]- 发布会id已经存在.
+[2018-09-20 13:16:35,795] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /api/sec_add_event/ HTTP/1.1" 200 55
+[2018-09-20 13:16:36,808] [views_api_sec.py:176] [views_api_sec:user_auth] [INFO]- Basic bGl4aWFvZmVuZzpmZW5nemk4MDIzMDA=
+[2018-09-20 13:16:36,809] [views_api_sec.py:178] [views_api_sec:user_auth] [INFO]- ['Basic', 'bGl4aWFvZmVuZzpmZW5nemk4MDIzMDA=']
+[2018-09-20 13:16:36,810] [views_api_sec.py:182] [views_api_sec:user_auth] [INFO]- ('lixiaofeng', ':', 'fengzi802300')
+[2018-09-20 13:16:36,862] [views_api_sec.py:187] [views_api_sec:user_auth] [INFO]- lixiaofeng
+[2018-09-20 13:16:36,879] [views_api_sec.py:87] [views_api_sec:sec_get_event_list] [INFO]- 查询嘉宾成功！
+[2018-09-20 13:16:36,883] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/sec_get_event_list/?eid=1 HTTP/1.1" 200 202
+[2018-09-20 13:17:04,044] [views_api_sec.py:222] [views_api_sec:user_sign_api] [INFO]- 86f8f1437f0f1c963d0fdfcaf00f2236
+[2018-09-20 13:17:04,064] [views_api_sec.py:42] [views_api_sec:sec_add_event] [INFO]- 发布会id已经存在.
+[2018-09-20 13:17:04,066] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /api/sec_add_event/ HTTP/1.1" 200 55
+[2018-09-20 13:17:05,081] [views_api_sec.py:176] [views_api_sec:user_auth] [INFO]- Basic bGl4aWFvZmVuZzpmZW5nemk4MDIzMDA=
+[2018-09-20 13:17:05,082] [views_api_sec.py:178] [views_api_sec:user_auth] [INFO]- ['Basic', 'bGl4aWFvZmVuZzpmZW5nemk4MDIzMDA=']
+[2018-09-20 13:17:05,083] [views_api_sec.py:182] [views_api_sec:user_auth] [INFO]- ('lixiaofeng', ':', 'fengzi802300')
+[2018-09-20 13:17:05,199] [views_api_sec.py:187] [views_api_sec:user_auth] [INFO]- lixiaofeng
+[2018-09-20 13:17:05,222] [views_api_sec.py:87] [views_api_sec:sec_get_event_list] [INFO]- 查询嘉宾成功！
+[2018-09-20 13:17:05,227] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/sec_get_event_list/?eid=1 HTTP/1.1" 200 202
+[2018-09-20 13:17:25,835] [views_api_sec.py:222] [views_api_sec:user_sign_api] [INFO]- d2a2c4257ee47993331453568d93e8cb
+[2018-09-20 13:17:25,854] [views_api_sec.py:42] [views_api_sec:sec_add_event] [INFO]- 发布会id已经存在.
+[2018-09-20 13:17:25,855] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /api/sec_add_event/ HTTP/1.1" 200 55
+[2018-09-20 13:17:26,861] [views_api_sec.py:176] [views_api_sec:user_auth] [INFO]- Basic bGl4aWFvZmVuZzpmZW5nemk4MDIzMDA=
+[2018-09-20 13:17:26,861] [views_api_sec.py:178] [views_api_sec:user_auth] [INFO]- ['Basic', 'bGl4aWFvZmVuZzpmZW5nemk4MDIzMDA=']
+[2018-09-20 13:17:26,862] [views_api_sec.py:182] [views_api_sec:user_auth] [INFO]- ('lixiaofeng', ':', 'fengzi802300')
+[2018-09-20 13:17:26,896] [views_api_sec.py:187] [views_api_sec:user_auth] [INFO]- lixiaofeng
+[2018-09-20 13:17:26,912] [views_api_sec.py:87] [views_api_sec:sec_get_event_list] [INFO]- 查询嘉宾成功！
+[2018-09-20 13:17:26,915] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/sec_get_event_list/?eid=1 HTTP/1.1" 200 202
+[2018-09-20 13:17:41,281] [views_api_sec.py:222] [views_api_sec:user_sign_api] [INFO]- cf423894840ecce827ed3e8228459b87
+[2018-09-20 13:17:41,302] [views_api_sec.py:42] [views_api_sec:sec_add_event] [INFO]- 发布会id已经存在.
+[2018-09-20 13:17:41,305] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /api/sec_add_event/ HTTP/1.1" 200 55
+[2018-09-20 13:17:42,314] [views_api_sec.py:176] [views_api_sec:user_auth] [INFO]- Basic bGl4aWFvZmVuZzpmZW5nemk4MDIzMDA=
+[2018-09-20 13:17:42,314] [views_api_sec.py:178] [views_api_sec:user_auth] [INFO]- ['Basic', 'bGl4aWFvZmVuZzpmZW5nemk4MDIzMDA=']
+[2018-09-20 13:17:42,315] [views_api_sec.py:182] [views_api_sec:user_auth] [INFO]- ('lixiaofeng', ':', 'fengzi802300')
+[2018-09-20 13:17:42,359] [views_api_sec.py:187] [views_api_sec:user_auth] [INFO]- lixiaofeng
+[2018-09-20 13:17:42,366] [views_api_sec.py:87] [views_api_sec:sec_get_event_list] [INFO]- 查询嘉宾成功！
+[2018-09-20 13:17:42,370] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/sec_get_event_list/?eid=1 HTTP/1.1" 200 202
+[2018-09-20 13:17:53,342] [views_api_sec.py:222] [views_api_sec:user_sign_api] [INFO]- 0d6fdf7217f900e18db1e82e3c7d045d
+[2018-09-20 13:17:53,345] [views_api_sec.py:42] [views_api_sec:sec_add_event] [INFO]- 发布会id已经存在.
+[2018-09-20 13:17:53,345] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /api/sec_add_event/ HTTP/1.1" 200 55
+[2018-09-20 13:17:54,354] [views_api_sec.py:176] [views_api_sec:user_auth] [INFO]- Basic bGl4aWFvZmVuZzpmZW5nemk4MDIzMDA=
+[2018-09-20 13:17:54,355] [views_api_sec.py:178] [views_api_sec:user_auth] [INFO]- ['Basic', 'bGl4aWFvZmVuZzpmZW5nemk4MDIzMDA=']
+[2018-09-20 13:17:54,357] [views_api_sec.py:182] [views_api_sec:user_auth] [INFO]- ('lixiaofeng', ':', 'fengzi802300')
+[2018-09-20 13:17:54,468] [views_api_sec.py:187] [views_api_sec:user_auth] [INFO]- lixiaofeng
+[2018-09-20 13:17:54,496] [views_api_sec.py:87] [views_api_sec:sec_get_event_list] [INFO]- 查询嘉宾成功！
+[2018-09-20 13:17:54,507] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/sec_get_event_list/?eid=1 HTTP/1.1" 200 202
+[2018-09-20 13:18:46,779] [views_api_sec.py:222] [views_api_sec:user_sign_api] [INFO]- ae4061cc745d297c30e0dca2713aa32e
+[2018-09-20 13:18:46,817] [views_api_sec.py:42] [views_api_sec:sec_add_event] [INFO]- 发布会id已经存在.
+[2018-09-20 13:18:46,819] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /api/sec_add_event/ HTTP/1.1" 200 55
+[2018-09-20 13:18:47,835] [views_api_sec.py:176] [views_api_sec:user_auth] [INFO]- Basic bGl4aWFvZmVuZzpmZW5nemk4MDIzMDA=
+[2018-09-20 13:18:47,837] [views_api_sec.py:178] [views_api_sec:user_auth] [INFO]- ['Basic', 'bGl4aWFvZmVuZzpmZW5nemk4MDIzMDA=']
+[2018-09-20 13:18:47,840] [views_api_sec.py:182] [views_api_sec:user_auth] [INFO]- ('lixiaofeng', ':', 'fengzi802300')
+[2018-09-20 13:18:47,918] [views_api_sec.py:187] [views_api_sec:user_auth] [INFO]- lixiaofeng
+[2018-09-20 13:18:47,927] [views_api_sec.py:87] [views_api_sec:sec_get_event_list] [INFO]- 查询嘉宾成功！
+[2018-09-20 13:18:47,930] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/sec_get_event_list/?eid=1 HTTP/1.1" 200 202
+[2018-09-20 13:22:07,774] [views_api_sec.py:222] [views_api_sec:user_sign_api] [INFO]- e70803497ab68ba0a1516eb91d34cefe
+[2018-09-20 13:22:07,805] [views_api_sec.py:42] [views_api_sec:sec_add_event] [INFO]- 发布会id已经存在.
+[2018-09-20 13:22:07,807] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /api/sec_add_event/ HTTP/1.1" 200 55
+[2018-09-20 13:22:08,822] [views_api_sec.py:176] [views_api_sec:user_auth] [INFO]- Basic bGl4aWFvZmVuZzpmZW5nemk4MDIzMDA=
+[2018-09-20 13:22:08,823] [views_api_sec.py:178] [views_api_sec:user_auth] [INFO]- ['Basic', 'bGl4aWFvZmVuZzpmZW5nemk4MDIzMDA=']
+[2018-09-20 13:22:08,825] [views_api_sec.py:182] [views_api_sec:user_auth] [INFO]- ('lixiaofeng', ':', 'fengzi802300')
+[2018-09-20 13:22:08,938] [views_api_sec.py:187] [views_api_sec:user_auth] [INFO]- lixiaofeng
+[2018-09-20 13:22:08,957] [views_api_sec.py:87] [views_api_sec:sec_get_event_list] [INFO]- 查询嘉宾成功！
+[2018-09-20 13:22:08,962] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/sec_get_event_list/?eid=1 HTTP/1.1" 200 202
+[2018-09-20 13:23:58,302] [views_api_sec.py:222] [views_api_sec:user_sign_api] [INFO]- 32a7c1baa1706cac4052ad2c2cd92787
+[2018-09-20 13:23:58,318] [views_api_sec.py:42] [views_api_sec:sec_add_event] [INFO]- 发布会id已经存在.
+[2018-09-20 13:23:58,319] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /api/sec_add_event/ HTTP/1.1" 200 55
+[2018-09-20 13:23:59,327] [views_api_sec.py:176] [views_api_sec:user_auth] [INFO]- Basic bGl4aWFvZmVuZzpmZW5nemk4MDIzMDA=
+[2018-09-20 13:23:59,328] [views_api_sec.py:178] [views_api_sec:user_auth] [INFO]- ['Basic', 'bGl4aWFvZmVuZzpmZW5nemk4MDIzMDA=']
+[2018-09-20 13:23:59,330] [views_api_sec.py:182] [views_api_sec:user_auth] [INFO]- ('lixiaofeng', ':', 'fengzi802300')
+[2018-09-20 13:23:59,434] [views_api_sec.py:187] [views_api_sec:user_auth] [INFO]- lixiaofeng
+[2018-09-20 13:23:59,451] [views_api_sec.py:87] [views_api_sec:sec_get_event_list] [INFO]- 查询嘉宾成功！
+[2018-09-20 13:23:59,454] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/sec_get_event_list/?eid=1 HTTP/1.1" 200 202
+[2018-09-20 13:24:13,587] [views_api_sec.py:222] [views_api_sec:user_sign_api] [INFO]- 892ef4676ca7f8352cfa61f9f974f66c
+[2018-09-20 13:24:13,598] [views_api_sec.py:42] [views_api_sec:sec_add_event] [INFO]- 发布会id已经存在.
+[2018-09-20 13:24:13,599] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /api/sec_add_event/ HTTP/1.1" 200 55
+[2018-09-20 13:24:14,606] [views_api_sec.py:176] [views_api_sec:user_auth] [INFO]- Basic bGl4aWFvZmVuZzpmZW5nemk4MDIzMDA=
+[2018-09-20 13:24:14,607] [views_api_sec.py:178] [views_api_sec:user_auth] [INFO]- ['Basic', 'bGl4aWFvZmVuZzpmZW5nemk4MDIzMDA=']
+[2018-09-20 13:24:14,608] [views_api_sec.py:182] [views_api_sec:user_auth] [INFO]- ('lixiaofeng', ':', 'fengzi802300')
+[2018-09-20 13:24:14,661] [views_api_sec.py:187] [views_api_sec:user_auth] [INFO]- lixiaofeng
+[2018-09-20 13:24:14,677] [views_api_sec.py:87] [views_api_sec:sec_get_event_list] [INFO]- 查询嘉宾成功！
+[2018-09-20 13:24:14,682] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/sec_get_event_list/?eid=1 HTTP/1.1" 200 202
+[2018-09-20 13:30:34,269] [exception.py:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/sec_get_guest_list/
+Traceback (most recent call last):
+  File "D:\python\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "D:\python\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\guest\guest\sign\views_api_sec.py", line 111, in sec_get_guest_list
+    dict_data = aes_encryption(request)
+  File "D:\guest\guest\sign\views_api_sec.py", line 259, in aes_encryption
+    decode = decryptAES(data, app_key)  # 调用decryptAES()函数解密
+  File "D:\guest\guest\sign\views_api_sec.py", line 245, in decryptAES
+    cryptor = AES.new(key, AES.MODE_CBC, iv)
+  File "D:\python\lib\site-packages\Crypto\Cipher\AES.py", line 206, in new
+    return _create_cipher(sys.modules[__name__], key, mode, *args, **kwargs)
+  File "D:\python\lib\site-packages\Crypto\Cipher\__init__.py", line 79, in _create_cipher
+    return modes[mode](factory, **kwargs)
+  File "D:\python\lib\site-packages\Crypto\Cipher\_mode_cbc.py", line 234, in _create_cbc_cipher
+    cipher_state = factory._create_base_cipher(kwargs)
+  File "D:\python\lib\site-packages\Crypto\Cipher\AES.py", line 102, in _create_base_cipher
+    result = start_operation(c_uint8_ptr(key),
+  File "D:\python\lib\site-packages\Crypto\Util\_raw_api.py", line 109, in c_uint8_ptr
+    raise TypeError("Object type %s cannot be passed to C code" % type(data))
+TypeError: Object type <class 'str'> cannot be passed to C code
+[2018-09-20 13:30:34,584] [basehttp.py:124] [basehttp:log_message] [ERROR]- "POST /api/sec_get_guest_list/ HTTP/1.1" 500 94599
+[2018-09-20 13:30:35,612] [views_api_sec.py:222] [views_api_sec:user_sign_api] [INFO]- 9b58cd807f752a44c3c93a41621bbadc
+[2018-09-20 13:30:35,642] [views_api_sec.py:42] [views_api_sec:sec_add_event] [INFO]- 发布会id已经存在.
+[2018-09-20 13:30:35,645] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /api/sec_add_event/ HTTP/1.1" 200 55
+[2018-09-20 13:30:36,658] [views_api_sec.py:176] [views_api_sec:user_auth] [INFO]- Basic bGl4aWFvZmVuZzpmZW5nemk4MDIzMDA=
+[2018-09-20 13:30:36,658] [views_api_sec.py:178] [views_api_sec:user_auth] [INFO]- ['Basic', 'bGl4aWFvZmVuZzpmZW5nemk4MDIzMDA=']
+[2018-09-20 13:30:36,659] [views_api_sec.py:182] [views_api_sec:user_auth] [INFO]- ('lixiaofeng', ':', 'fengzi802300')
+[2018-09-20 13:30:36,691] [views_api_sec.py:187] [views_api_sec:user_auth] [INFO]- lixiaofeng
+[2018-09-20 13:30:36,699] [views_api_sec.py:87] [views_api_sec:sec_get_event_list] [INFO]- 查询嘉宾成功！
+[2018-09-20 13:30:36,702] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/sec_get_event_list/?eid=1 HTTP/1.1" 200 202
+[2018-09-20 13:31:09,938] [exception.py:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/sec_get_guest_list/
+Traceback (most recent call last):
+  File "D:\python\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "D:\python\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\guest\guest\sign\views_api_sec.py", line 111, in sec_get_guest_list
+    dict_data = aes_encryption(request)
+  File "D:\guest\guest\sign\views_api_sec.py", line 259, in aes_encryption
+    decode = decryptAES(data, app_key)  # 调用decryptAES()函数解密
+  File "D:\guest\guest\sign\views_api_sec.py", line 245, in decryptAES
+    cryptor = AES.new(key, AES.MODE_CBC, iv)
+  File "D:\python\lib\site-packages\Crypto\Cipher\AES.py", line 206, in new
+    return _create_cipher(sys.modules[__name__], key, mode, *args, **kwargs)
+  File "D:\python\lib\site-packages\Crypto\Cipher\__init__.py", line 79, in _create_cipher
+    return modes[mode](factory, **kwargs)
+  File "D:\python\lib\site-packages\Crypto\Cipher\_mode_cbc.py", line 234, in _create_cbc_cipher
+    cipher_state = factory._create_base_cipher(kwargs)
+  File "D:\python\lib\site-packages\Crypto\Cipher\AES.py", line 102, in _create_base_cipher
+    result = start_operation(c_uint8_ptr(key),
+  File "D:\python\lib\site-packages\Crypto\Util\_raw_api.py", line 109, in c_uint8_ptr
+    raise TypeError("Object type %s cannot be passed to C code" % type(data))
+TypeError: Object type <class 'str'> cannot be passed to C code
+[2018-09-20 13:31:10,063] [basehttp.py:124] [basehttp:log_message] [ERROR]- "POST /api/sec_get_guest_list/ HTTP/1.1" 500 94599
+[2018-09-20 13:31:11,082] [views_api_sec.py:222] [views_api_sec:user_sign_api] [INFO]- c7e4c61b04699aae205b458be83be529
+[2018-09-20 13:31:11,103] [views_api_sec.py:42] [views_api_sec:sec_add_event] [INFO]- 发布会id已经存在.
+[2018-09-20 13:31:11,105] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /api/sec_add_event/ HTTP/1.1" 200 55
+[2018-09-20 13:31:12,117] [views_api_sec.py:176] [views_api_sec:user_auth] [INFO]- Basic bGl4aWFvZmVuZzpmZW5nemk4MDIzMDA=
+[2018-09-20 13:31:12,119] [views_api_sec.py:178] [views_api_sec:user_auth] [INFO]- ['Basic', 'bGl4aWFvZmVuZzpmZW5nemk4MDIzMDA=']
+[2018-09-20 13:31:12,121] [views_api_sec.py:182] [views_api_sec:user_auth] [INFO]- ('lixiaofeng', ':', 'fengzi802300')
+[2018-09-20 13:31:12,191] [views_api_sec.py:187] [views_api_sec:user_auth] [INFO]- lixiaofeng
+[2018-09-20 13:31:12,199] [views_api_sec.py:87] [views_api_sec:sec_get_event_list] [INFO]- 查询嘉宾成功！
+[2018-09-20 13:31:12,202] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/sec_get_event_list/?eid=1 HTTP/1.1" 200 202
+[2018-09-20 13:32:16,450] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/sec_get_guest_list/ HTTP/1.1" 200 45
+[2018-09-20 13:33:35,587] [views_api_sec.py:222] [views_api_sec:user_sign_api] [INFO]- 7747989a06e3760a886f2ab21b9bea9c
+[2018-09-20 13:33:35,592] [views_api_sec.py:42] [views_api_sec:sec_add_event] [INFO]- 发布会id已经存在.
+[2018-09-20 13:33:35,592] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /api/sec_add_event/ HTTP/1.1" 200 55
+[2018-09-20 13:33:36,600] [views_api_sec.py:176] [views_api_sec:user_auth] [INFO]- Basic bGl4aWFvZmVuZzpmZW5nemk4MDIzMDA=
+[2018-09-20 13:33:36,603] [views_api_sec.py:178] [views_api_sec:user_auth] [INFO]- ['Basic', 'bGl4aWFvZmVuZzpmZW5nemk4MDIzMDA=']
+[2018-09-20 13:33:36,605] [views_api_sec.py:182] [views_api_sec:user_auth] [INFO]- ('lixiaofeng', ':', 'fengzi802300')
+[2018-09-20 13:33:36,694] [views_api_sec.py:187] [views_api_sec:user_auth] [INFO]- lixiaofeng
+[2018-09-20 13:33:36,711] [views_api_sec.py:87] [views_api_sec:sec_get_event_list] [INFO]- 查询嘉宾成功！
+[2018-09-20 13:33:36,714] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/sec_get_event_list/?eid=1 HTTP/1.1" 200 202
+[2018-09-20 13:34:39,864] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/sec_get_guest_list/?data=QmeGx2kP4bu9i84346TlQrLOYOJJNlG5mkteUTzLmw3V9U0Cl5254ogV01nBqM-C HTTP/1.1" 200 45
+[2018-09-20 13:34:40,883] [views_api_sec.py:222] [views_api_sec:user_sign_api] [INFO]- 89b66d8448e60b160b9430144743671c
+[2018-09-20 13:34:40,911] [views_api_sec.py:42] [views_api_sec:sec_add_event] [INFO]- 发布会id已经存在.
+[2018-09-20 13:34:40,913] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /api/sec_add_event/ HTTP/1.1" 200 55
+[2018-09-20 13:34:41,927] [views_api_sec.py:176] [views_api_sec:user_auth] [INFO]- Basic bGl4aWFvZmVuZzpmZW5nemk4MDIzMDA=
+[2018-09-20 13:34:41,928] [views_api_sec.py:178] [views_api_sec:user_auth] [INFO]- ['Basic', 'bGl4aWFvZmVuZzpmZW5nemk4MDIzMDA=']
+[2018-09-20 13:34:41,929] [views_api_sec.py:182] [views_api_sec:user_auth] [INFO]- ('lixiaofeng', ':', 'fengzi802300')
+[2018-09-20 13:34:42,030] [views_api_sec.py:187] [views_api_sec:user_auth] [INFO]- lixiaofeng
+[2018-09-20 13:34:42,037] [views_api_sec.py:87] [views_api_sec:sec_get_event_list] [INFO]- 查询嘉宾成功！
+[2018-09-20 13:34:42,041] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/sec_get_event_list/?eid=1 HTTP/1.1" 200 202
+[2018-09-20 13:35:06,320] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/sec_get_guest_list/?data=QmeGx2kP4bu9i84346TlQrLOYOJJNlG5mkteUTzLmw3V9U0Cl5254ogV01nBqM-C HTTP/1.1" 200 45
+[2018-09-20 13:35:43,124] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/sec_get_guest_list/?data=FEwSb8qF0-FMIUCdtpmSr-pn0aYb509fwrOSqdH_W7g%3D HTTP/1.1" 200 45
+[2018-09-20 13:36:16,892] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/sec_get_guest_list/?data=FEwSb8qF0-FMIUCdtpmSr-pn0aYb509fwrOSqdH_W7g%3D HTTP/1.1" 200 45
+[2018-09-20 13:36:49,438] [exception.py:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/sec_get_guest_list/
+Traceback (most recent call last):
+  File "D:\python\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "D:\python\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\guest\guest\sign\views_api_sec.py", line 111, in sec_get_guest_list
+    dict_data = aes_encryption(request)
+  File "D:\guest\guest\sign\views_api_sec.py", line 259, in aes_encryption
+    decode = decryptAES(data, app_key)  # 调用decryptAES()函数解密
+  File "D:\guest\guest\sign\views_api_sec.py", line 245, in decryptAES
+    cryptor = AES.new(key, AES.MODE_CBC, iv)
+  File "D:\python\lib\site-packages\Crypto\Cipher\AES.py", line 206, in new
+    return _create_cipher(sys.modules[__name__], key, mode, *args, **kwargs)
+  File "D:\python\lib\site-packages\Crypto\Cipher\__init__.py", line 79, in _create_cipher
+    return modes[mode](factory, **kwargs)
+  File "D:\python\lib\site-packages\Crypto\Cipher\_mode_cbc.py", line 234, in _create_cbc_cipher
+    cipher_state = factory._create_base_cipher(kwargs)
+  File "D:\python\lib\site-packages\Crypto\Cipher\AES.py", line 102, in _create_base_cipher
+    result = start_operation(c_uint8_ptr(key),
+  File "D:\python\lib\site-packages\Crypto\Util\_raw_api.py", line 109, in c_uint8_ptr
+    raise TypeError("Object type %s cannot be passed to C code" % type(data))
+TypeError: Object type <class 'str'> cannot be passed to C code
+[2018-09-20 13:36:49,659] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /api/sec_get_guest_list/?data=FEwSb8qF0-FMIUCdtpmSr-pn0aYb509fwrOSqdH_W7g%3D HTTP/1.1" 500 94733
+[2018-09-20 13:37:40,927] [exception.py:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/sec_get_guest_list/
+Traceback (most recent call last):
+  File "D:\python\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "D:\python\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\guest\guest\sign\views_api_sec.py", line 111, in sec_get_guest_list
+    dict_data = aes_encryption(request)
+  File "D:\guest\guest\sign\views_api_sec.py", line 259, in aes_encryption
+    decode = decryptAES(data, app_key.encode('utf-8'))  # 调用decryptAES()函数解密
+  File "D:\guest\guest\sign\views_api_sec.py", line 247, in decryptAES
+    return unpad(text)
+  File "D:\guest\guest\sign\views_api_sec.py", line 234, in <lambda>
+    unpad = lambda s: s[0: - ord(s[-1])]  # 通过lambda匿名函数对字符串长度进行还原
+IndexError: string index out of range
+[2018-09-20 13:37:41,142] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /api/sec_get_guest_list/?data=FEwSb8qF0-FMIUCdtpmSr-pn0aYb509fwrOSqdH_W7g%3D HTTP/1.1" 500 78645
+[2018-09-20 13:38:13,216] [exception.py:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/sec_get_guest_list/
+Traceback (most recent call last):
+  File "D:\python\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "D:\python\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\guest\guest\sign\views_api_sec.py", line 111, in sec_get_guest_list
+    dict_data = aes_encryption(request)
+  File "D:\guest\guest\sign\views_api_sec.py", line 259, in aes_encryption
+    decode = decryptAES(data, app_key.encode('utf-8'))  # 调用decryptAES()函数解密
+  File "D:\guest\guest\sign\views_api_sec.py", line 247, in decryptAES
+    return unpad(text)
+  File "D:\guest\guest\sign\views_api_sec.py", line 234, in <lambda>
+    unpad = lambda s: s[0: - ord(s[-1])]  # 通过lambda匿名函数对字符串长度进行还原
+IndexError: string index out of range
+[2018-09-20 13:38:13,255] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /api/sec_get_guest_list/?data=FEwSb8qF0-FMIUCdtpmSr-pn0aYb509fwrOSqdH_W7g%3D HTTP/1.1" 500 78645
+[2018-09-20 13:38:20,171] [exception.py:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/sec_get_guest_list/
+Traceback (most recent call last):
+  File "D:\python\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "D:\python\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\guest\guest\sign\views_api_sec.py", line 111, in sec_get_guest_list
+    dict_data = aes_encryption(request)
+  File "D:\guest\guest\sign\views_api_sec.py", line 259, in aes_encryption
+    decode = decryptAES(data, app_key.encode('utf-8'))  # 调用decryptAES()函数解密
+  File "D:\guest\guest\sign\views_api_sec.py", line 247, in decryptAES
+    return unpad(text)
+  File "D:\guest\guest\sign\views_api_sec.py", line 234, in <lambda>
+    unpad = lambda s: s[0: - ord(s[-1])]  # 通过lambda匿名函数对字符串长度进行还原
+IndexError: string index out of range
+[2018-09-20 13:38:20,249] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /api/sec_get_guest_list/?data=FEwSb8qF0-FMIUCdtpmSr-pn0aYb509fwrOSqdH_W7g%3D HTTP/1.1" 500 78644
+[2018-09-20 13:39:23,230] [exception.py:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/sec_get_guest_list/
+Traceback (most recent call last):
+  File "D:\python\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "D:\python\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\guest\guest\sign\views_api_sec.py", line 111, in sec_get_guest_list
+    dict_data = aes_encryption(request)
+  File "D:\guest\guest\sign\views_api_sec.py", line 260, in aes_encryption
+    decode = decryptAES(data, app_key.encode('utf-8'))  # 调用decryptAES()函数解密
+  File "D:\guest\guest\sign\views_api_sec.py", line 248, in decryptAES
+    return unpad(text)
+  File "D:\guest\guest\sign\views_api_sec.py", line 234, in <lambda>
+    unpad = lambda s: s[0: - ord(s[-1])]  # 通过lambda匿名函数对字符串长度进行还原
+IndexError: string index out of range
+[2018-09-20 13:39:23,429] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /api/sec_get_guest_list/?data=FEwSb8qF0-FMIUCdtpmSr-pn0aYb509fwrOSqdH_W7g%3D HTTP/1.1" 500 78659
+[2018-09-20 13:39:56,921] [views_api_sec.py:247] [views_api_sec:decryptAES] [INFO]- 
+[2018-09-20 13:39:56,923] [exception.py:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/sec_get_guest_list/
+Traceback (most recent call last):
+  File "D:\python\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "D:\python\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\guest\guest\sign\views_api_sec.py", line 111, in sec_get_guest_list
+    dict_data = aes_encryption(request)
+  File "D:\guest\guest\sign\views_api_sec.py", line 260, in aes_encryption
+    decode = decryptAES(data, app_key.encode('utf-8'))  # 调用decryptAES()函数解密
+  File "D:\guest\guest\sign\views_api_sec.py", line 248, in decryptAES
+    return unpad(text)
+  File "D:\guest\guest\sign\views_api_sec.py", line 234, in <lambda>
+    unpad = lambda s: s[0: - ord(s[-1])]  # 通过lambda匿名函数对字符串长度进行还原
+IndexError: string index out of range
+[2018-09-20 13:39:57,102] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /api/sec_get_guest_list/?data=FEwSb8qF0-FMIUCdtpmSr-pn0aYb509fwrOSqdH_W7g%3D HTTP/1.1" 500 78662
+[2018-09-20 13:40:20,285] [views_api_sec.py:256] [views_api_sec:aes_encryption] [INFO]- 
+[2018-09-20 13:40:20,288] [views_api_sec.py:247] [views_api_sec:decryptAES] [INFO]- 
+[2018-09-20 13:40:20,288] [exception.py:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/sec_get_guest_list/
+Traceback (most recent call last):
+  File "D:\python\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "D:\python\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\guest\guest\sign\views_api_sec.py", line 111, in sec_get_guest_list
+    dict_data = aes_encryption(request)
+  File "D:\guest\guest\sign\views_api_sec.py", line 261, in aes_encryption
+    decode = decryptAES(data, app_key.encode('utf-8'))  # 调用decryptAES()函数解密
+  File "D:\guest\guest\sign\views_api_sec.py", line 248, in decryptAES
+    return unpad(text)
+  File "D:\guest\guest\sign\views_api_sec.py", line 234, in <lambda>
+    unpad = lambda s: s[0: - ord(s[-1])]  # 通过lambda匿名函数对字符串长度进行还原
+IndexError: string index out of range
+[2018-09-20 13:40:20,442] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /api/sec_get_guest_list/?data=FEwSb8qF0-FMIUCdtpmSr-pn0aYb509fwrOSqdH_W7g%3D HTTP/1.1" 500 78685
+[2018-09-20 13:40:39,007] [views_api_sec.py:256] [views_api_sec:aes_encryption] [INFO]- FEwSb8qF0-FMIUCdtpmSr-pn0aYb509fwrOSqdH_W7g=
+[2018-09-20 13:40:39,009] [views_api_sec.py:247] [views_api_sec:decryptAES] [INFO]- {"name": "18701137212"}									
+[2018-09-20 13:40:39,028] [views_api_sec.py:147] [views_api_sec:sec_get_guest_list] [INFO]- 查询嘉宾成功！
+[2018-09-20 13:40:39,029] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/sec_get_guest_list/?data=FEwSb8qF0-FMIUCdtpmSr-pn0aYb509fwrOSqdH_W7g%3D HTTP/1.1" 200 206
+[2018-09-20 13:40:47,882] [views_api_sec.py:256] [views_api_sec:aes_encryption] [INFO]- FEwSb8qF0-FMIUCdtpmSr-pn0aYb509fwrOSqdH_W7g=
+[2018-09-20 13:40:47,885] [views_api_sec.py:247] [views_api_sec:decryptAES] [INFO]- {"name": "18701137212"}									
+[2018-09-20 13:40:47,917] [views_api_sec.py:147] [views_api_sec:sec_get_guest_list] [INFO]- 查询嘉宾成功！
+[2018-09-20 13:40:47,919] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/sec_get_guest_list/?data=FEwSb8qF0-FMIUCdtpmSr-pn0aYb509fwrOSqdH_W7g%3D HTTP/1.1" 200 206
+[2018-09-20 13:41:14,893] [views_api_sec.py:256] [views_api_sec:aes_encryption] [INFO]- FEwSb8qF0-FMIUCdtpmSr-pn0aYb509fwrOSqdH_W7g=
+[2018-09-20 13:41:14,894] [views_api_sec.py:247] [views_api_sec:decryptAES] [INFO]- {"name": "18701137212"}									
+[2018-09-20 13:41:14,918] [views_api_sec.py:147] [views_api_sec:sec_get_guest_list] [INFO]- 查询嘉宾成功！
+[2018-09-20 13:41:14,919] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/sec_get_guest_list/?data=FEwSb8qF0-FMIUCdtpmSr-pn0aYb509fwrOSqdH_W7g%3D HTTP/1.1" 200 206
+[2018-09-20 13:41:33,334] [views_api_sec.py:256] [views_api_sec:aes_encryption] [INFO]- l3MA3dBXJtXApvdLgTFk0w==
+[2018-09-20 13:41:33,335] [views_api_sec.py:247] [views_api_sec:decryptAES] [INFO]- {"name": "187"}
+[2018-09-20 13:41:33,344] [views_api_sec.py:147] [views_api_sec:sec_get_guest_list] [INFO]- 查询嘉宾成功！
+[2018-09-20 13:41:33,345] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/sec_get_guest_list/?data=l3MA3dBXJtXApvdLgTFk0w%3D%3D HTTP/1.1" 200 358

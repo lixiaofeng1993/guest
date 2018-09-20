@@ -244,19 +244,21 @@ def decryptAES(src, key):
     iv = b'1172311105789011'
     cryptor = AES.new(key, AES.MODE_CBC, iv)
     text = cryptor.decrypt(src).decode()  # decrypt() 对AES加密字符串进行解密
+    log.info(text)
     return unpad(text)
 
 
 def aes_encryption(request):
     app_key = 'W7v4D60fds2Cmk2U'
 
-    if request.method == 'POST':
-        data = request.POST.get('data', '')
+    if request.method == 'GET':
+        data = request.GET.get('data', '')
+        log.info(data)
     else:
         return 'error'
 
     # 解密
-    decode = decryptAES(data, app_key)  # 调用decryptAES()函数解密
+    decode = decryptAES(data, app_key.encode('utf-8'))  # 调用decryptAES()函数解密
     # 转化为字典
     dict_data = json.loads(decode)
     return dict_data
