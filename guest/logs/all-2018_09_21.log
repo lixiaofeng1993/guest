@@ -1,0 +1,43 @@
+[2018-09-21 14:38:55,735] [views_api_sec.py:255] [views_api_sec:aes_encryption] [INFO]- l3MA3dBXJtXApvdLgTFk0w==
+[2018-09-21 14:38:55,737] [views_api_sec.py:246] [views_api_sec:decryptAES] [INFO]- {"name": "187"}
+[2018-09-21 14:38:58,001] [views_api_sec.py:146] [views_api_sec:sec_get_guest_list] [INFO]- 查询嘉宾成功！
+[2018-09-21 14:38:58,007] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/sec_get_guest_list/?data=l3MA3dBXJtXApvdLgTFk0w%3D%3D HTTP/1.1" 200 436144
+[2018-09-21 14:38:59,040] [views_api_sec.py:221] [views_api_sec:user_sign_api] [INFO]- 03e2cb3bfd205e6d195a0b4588e45a34
+[2018-09-21 14:38:59,071] [views_api_sec.py:41] [views_api_sec:sec_add_event] [INFO]- 发布会id已经存在.
+[2018-09-21 14:38:59,072] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /api/sec_add_event/ HTTP/1.1" 200 55
+[2018-09-21 14:39:00,081] [views_api_sec.py:175] [views_api_sec:user_auth] [INFO]- Basic bGl4aWFvZmVuZzpmZW5nemk4MDIzMDA=
+[2018-09-21 14:39:00,082] [views_api_sec.py:177] [views_api_sec:user_auth] [INFO]- ['Basic', 'bGl4aWFvZmVuZzpmZW5nemk4MDIzMDA=']
+[2018-09-21 14:39:00,083] [views_api_sec.py:181] [views_api_sec:user_auth] [INFO]- ('lixiaofeng', ':', 'fengzi802300')
+[2018-09-21 14:39:00,222] [views_api_sec.py:186] [views_api_sec:user_auth] [INFO]- lixiaofeng
+[2018-09-21 14:39:00,248] [views_api_sec.py:86] [views_api_sec:sec_get_event_list] [INFO]- 查询嘉宾成功！
+[2018-09-21 14:39:00,251] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/sec_get_event_list/?eid=1 HTTP/1.1" 200 202
+[2018-09-21 14:39:36,641] [remove_logs.py:19] [remove_logs:remove_logs] [INFO]- ['all-2018_09_21.log', 'error-2018_09_21.log', 'info-2018_09_21.log']
+[2018-09-21 14:39:36,643] [remove_logs.py:19] [remove_logs:remove_logs] [INFO]- ['all-2018_09_21.log', 'error-2018_09_21.log', 'info-2018_09_21.log']
+[2018-09-21 14:39:37,536] [views_api_sec.py:255] [views_api_sec:aes_encryption] [INFO]- l3MA3dBXJtXApvdLgTFk0w==
+[2018-09-21 14:39:37,543] [views_api_sec.py:246] [views_api_sec:decryptAES] [INFO]- {"name": "187"}
+[2018-09-21 14:39:39,735] [views_api_sec.py:146] [views_api_sec:sec_get_guest_list] [INFO]- 查询嘉宾成功！
+[2018-09-21 14:39:39,742] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/sec_get_guest_list/?data=l3MA3dBXJtXApvdLgTFk0w%3D%3D HTTP/1.1" 200 436144
+[2018-09-21 14:39:40,772] [views_api_sec.py:221] [views_api_sec:user_sign_api] [INFO]- fb7d5604540f453f39bd2a3b4046729d
+[2018-09-21 14:39:40,800] [views_api_sec.py:41] [views_api_sec:sec_add_event] [INFO]- 发布会id已经存在.
+[2018-09-21 14:39:40,803] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /api/sec_add_event/ HTTP/1.1" 200 55
+[2018-09-21 14:39:41,817] [views_api_sec.py:175] [views_api_sec:user_auth] [INFO]- Basic bGl4aWFvZmVuZzpmZW5nemk4MDIzMDA=
+[2018-09-21 14:39:41,817] [views_api_sec.py:177] [views_api_sec:user_auth] [INFO]- ['Basic', 'bGl4aWFvZmVuZzpmZW5nemk4MDIzMDA=']
+[2018-09-21 14:39:41,817] [views_api_sec.py:181] [views_api_sec:user_auth] [INFO]- ('lixiaofeng', ':', 'fengzi802300')
+[2018-09-21 14:39:41,873] [views_api_sec.py:186] [views_api_sec:user_auth] [INFO]- lixiaofeng
+[2018-09-21 14:39:41,892] [views_api_sec.py:86] [views_api_sec:sec_get_event_list] [INFO]- 查询嘉宾成功！
+[2018-09-21 14:39:41,895] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/sec_get_event_list/?eid=1 HTTP/1.1" 200 202
+[2018-09-21 14:40:44,836] [remove_logs.py:19] [remove_logs:remove_logs] [INFO]- ['all-2018_09_21.log', 'error-2018_09_21.log', 'info-2018_09_21.log']
+[2018-09-21 14:40:44,838] [remove_logs.py:19] [remove_logs:remove_logs] [INFO]- ['all-2018_09_21.log', 'error-2018_09_21.log', 'info-2018_09_21.log']
+[2018-09-21 14:40:45,383] [views_api_sec.py:255] [views_api_sec:aes_encryption] [INFO]- l3MA3dBXJtXApvdLgTFk0w==
+[2018-09-21 14:40:45,385] [views_api_sec.py:246] [views_api_sec:decryptAES] [INFO]- {"name": "187"}
+[2018-09-21 14:40:47,537] [views_api_sec.py:146] [views_api_sec:sec_get_guest_list] [INFO]- 查询嘉宾成功！
+[2018-09-21 14:40:47,544] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/sec_get_guest_list/?data=l3MA3dBXJtXApvdLgTFk0w%3D%3D HTTP/1.1" 200 436144
+[2018-09-21 14:40:48,592] [views_api_sec.py:221] [views_api_sec:user_sign_api] [INFO]- aeab7a08076822b0687a50fb3e54edc4
+[2018-09-21 14:40:48,614] [views_api_sec.py:41] [views_api_sec:sec_add_event] [INFO]- 发布会id已经存在.
+[2018-09-21 14:40:48,615] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /api/sec_add_event/ HTTP/1.1" 200 55
+[2018-09-21 14:40:49,624] [views_api_sec.py:175] [views_api_sec:user_auth] [INFO]- Basic bGl4aWFvZmVuZzpmZW5nemk4MDIzMDA=
+[2018-09-21 14:40:49,625] [views_api_sec.py:177] [views_api_sec:user_auth] [INFO]- ['Basic', 'bGl4aWFvZmVuZzpmZW5nemk4MDIzMDA=']
+[2018-09-21 14:40:49,625] [views_api_sec.py:181] [views_api_sec:user_auth] [INFO]- ('lixiaofeng', ':', 'fengzi802300')
+[2018-09-21 14:40:49,687] [views_api_sec.py:186] [views_api_sec:user_auth] [INFO]- lixiaofeng
+[2018-09-21 14:40:49,704] [views_api_sec.py:86] [views_api_sec:sec_get_event_list] [INFO]- 查询嘉宾成功！
+[2018-09-21 14:40:49,708] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/sec_get_event_list/?eid=1 HTTP/1.1" 200 202
