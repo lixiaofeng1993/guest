@@ -34,4 +34,4 @@ def remove_logs():
                         file_path = os.path.join(dirPath, i)  # 拼接文件的完整路径
                         os.remove(file_path)
 
-# remove_logs()
+remove_logs()
