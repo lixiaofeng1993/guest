@@ -1,8 +1,10 @@
 #!/usr/bin/env python
 import os
 import sys
+from sign.remove_logs import remove_logs
 
 if __name__ == "__main__":
+    remove_logs()
     os.environ.setdefault("DJANGO_SETTINGS_MODULE", "guest.settings")
     try:
         from django.core.management import execute_from_command_line
